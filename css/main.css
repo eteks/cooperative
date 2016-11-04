@@ -365,6 +365,12 @@ input.search-form:hover {
 .breadcrumb>.active {color: rgba(204, 18, 18, 1);}
 .breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
 
+/*.sec>li {
+	font-size: 15px;
+	background: #191919;
+	color: red;
+}*/
+
 /*******End of Header Menus******/
 /*******Logo******/
 .logo{
@@ -390,53 +396,110 @@ line-height: 24px;
 /*******End of logo******/
 
 /*******For slidder******/
-.jssorb01 {
-            position: absolute;
-        }
-        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
-            position: absolute;
-            /* size of bullet elment */
-            width: 12px;
-            height: 12px;
-            filter: alpha(opacity=70);
-            opacity: .7;
-            overflow: hidden;
-            cursor: pointer;
-            border: #000 1px solid;
-        }
-        .jssorb01 div { background-color: gray; }
-        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
-        .jssorb01 .av { background-color: #fff; }
-        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+/*#slidder{
+	background: #D6DBDF;
+	height: 300px;
+  	width: 1400px;
+}*/
 
-        
-        .jssora05l, .jssora05r {
-            display: block;
-            position: absolute;
-            /* size of arrow element */
-            width: 40px;
-            height: 40px;
-            cursor: pointer;
-           
-            overflow: hidden;
-        }
-        .jssora05l { background-position: -10px -40px; }
-        .jssora05r { background-position: -70px -40px; }
-        .jssora05l:hover { background-position: -130px -40px; }
-        .jssora05r:hover { background-position: -190px -40px; }
-        .jssora05l.jssora05ldn { background-position: -250px -40px; }
-        .jssora05r.jssora05rdn { background-position: -310px -40px; }
-        .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
-        .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
+.clear-fix { clear: both; }
+
+
+
+.sliderlinks { display: none; }
+
+.slider {
+  margin: 30px auto;
+  height: 300px;
+  width: 500px;
+  perspective-origin: 50% 50%;
+  transform-style: preserve-3d;
+  perspective: 2000px;
+  position: relative;
+  /*background: #F08080;*/
+}
+
+.slider .cube1, .slider .cube2, .slider .cube3, .slider .cube4 {
+  height: 100%;
+  width: 25%;
+  perspective-origin: 50% 50%;
+  transform-style: preserve-3d;
+  position: relative;
+  float: left;
+  transition: all 1s ease-in-out;
+}
+
+.face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.face img { transform: rotateX(0deg); }
+
+.slider .face1 {
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+  transform: translate3d(0, 0, 150px);
+}
+
+.slider .face2 {
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+  transform: rotateX(90deg) translate3d(0, 0, 150px);
+}
+
+.slider .face3 {
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+  transform: rotateX(-90deg) translate3d(0, 0, 150px);
+}
+
+.slider .face4 {
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+  transform: rotateX(180deg) translate3d(0, 0, 150px);
+}
+
+.slider .face5 {
+  height: 100%;
+  width: 400%;
+ //background-color: #2c72c3;
+  transform: translateX(-50%)rotateY(90deg) translate3d(0, 0, 75px);
+}
+
+.slider .face6 {
+  height: 100%;
+  width: 400%;
+ //background-color: #7d2cc3;
+  transform: rotateY(90deg) translate3d(0, 0, -150px);
+}
+
+.cube1 .face1 img, .cube1 .face2 img, .cube1 .face3 img, .cube1 .face4 img { margin: 0; }
+
+.cube2 .face1 img, .cube2 .face2 img, .cube2 .face3 img, .cube2 .face4 img { margin-left: -100%; }
+
+.cube3 .face1 img, .cube3 .face2 img, .cube3 .face3 img, .cube3 .face4 img { margin-left: -200%; }
+
+.cube4 .face1 img, .cube4 .face2 img, .cube4 .face3 img, .cube4 .face4 img { margin-left: -300%; }
 
 /*******End of slidder******/
-
 
 /*************************
 *******Home Page******
 **************************/
 
-
+#left-scroll{
+	margin: 0 15px 0 0;
+	background-color: #c52d2f;
+	color: #F7F9F9;
+	
+}
 #main-slider {
   position: relative;
 }
@@ -483,7 +546,7 @@ line-height: 24px;
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 500px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -2564,6 +2627,10 @@ shortcodes page css
     margin-top: 43px;
                                          
 }
+.gover,.cm,.mco,.cs,.scop,.rcops{
+	color:white;
+}
+
 
 
 

@@ -23,64 +23,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script> 
-    <script src="js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>
-    <!-- Script for slidder Part -->
-    
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-
-            var jssor_1_SlideshowTransitions = [
-              {$Duration:1200,x:0.2,y:-0.1,$Delay:20,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InWave,$Top:$Jease$.$InWave,$Clip:$Jease$.$OutQuad},$Outside:true,$Round:{$Left:1.3,$Top:2.5}},
-              {$Duration:1500,x:0.3,y:-0.3,$Delay:20,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.1,0.9],$Top:[0.1,0.9]},$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InJump,$Top:$Jease$.$InJump,$Clip:$Jease$.$OutQuad},$Outside:true,$Round:{$Left:0.8,$Top:2.5}},
-              {$Duration:1500,x:0.2,y:-0.1,$Delay:20,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:260,$Easing:{$Left:$Jease$.$InWave,$Top:$Jease$.$InWave,$Clip:$Jease$.$OutQuad},$Outside:true,$Round:{$Left:0.8,$Top:2.5}},
-              {$Duration:1500,x:0.3,y:-0.3,$Delay:80,$Cols:8,$Rows:4,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$Easing:{$Left:$Jease$.$InJump,$Top:$Jease$.$InJump,$Clip:$Jease$.$OutQuad},$Outside:true,$Round:{$Left:0.8,$Top:2.5}},
-              {$Duration:1800,x:1,y:0.2,$Delay:30,$Cols:10,$Rows:5,$Clip:15,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$Reverse:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:2050,$Easing:{$Left:$Jease$.$InOutSine,$Top:$Jease$.$OutWave,$Clip:$Jease$.$InOutQuad},$Outside:true,$Round:{$Top:1.3}},
-              {$Duration:1000,$Delay:30,$Cols:8,$Rows:4,$Clip:15,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Assembly:2049,$Easing:$Jease$.$OutQuad},
-              {$Duration:1000,$Delay:80,$Cols:8,$Rows:4,$Clip:15,$SlideOut:true,$Easing:$Jease$.$OutQuad},
-              {$Duration:1000,y:-1,$Cols:12,$Formation:$JssorSlideshowFormations$.$FormationStraight,$ChessMode:{$Column:12}},
-              {$Duration:1000,x:-0.2,$Delay:40,$Cols:12,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Assembly:260,$Easing:{$Left:$Jease$.$InOutExpo,$Opacity:$Jease$.$InOutQuad},$Opacity:2,$Outside:true,$Round:{$Top:0.5}},
-              {$Duration:2000,y:-1,$Delay:60,$Cols:15,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraight,$Easing:$Jease$.$OutJump,$Round:{$Top:1.5}}
-            ];
-
-            var jssor_1_options = {
-              $AutoPlay: true,
-              $SlideshowOptions: {
-                $Class: $JssorSlideshowRunner$,
-                $Transitions: jssor_1_SlideshowTransitions,
-                $TransitionsOrder: 1
-              },
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
-            };
-
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*responsive code begin*/
-            /*you can remove responsive code if you don't want the slider scales while window resizing*/
-            function ScaleSlider() {
-                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-                if (refSize) {
-                    refSize = Math.min(refSize, 600);
-                    jssor_1_slider.$ScaleWidth(refSize);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-            ScaleSlider();
-            $(window).bind("load", ScaleSlider);
-            $(window).bind("resize", ScaleSlider);
-            $(window).bind("orientationchange", ScaleSlider);
-            /*responsive code end*/
-        });
-    </script>
-    
-    <!-- /Script for slidder Part -->
     
     
     
@@ -104,15 +46,15 @@
 						    <li class="dropdown">
                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Co-operative Acts &amp; Rule <i class="fa fa-angle-down"></i></a>
                             	<ul class="dropdown-menu">
-                            	<li><a href="ACT&#32;AND&#32;RULES/Act1972.pdf" title="PCS ACT, 1972" target="new">Puducherry Co-operative Societies Act, 1972</a></li>
-        						<li><a href="ACT&#32;AND&#32;RULES/Rules1973.pdf" title="PSC RULES, 1973" target="new">Puducherry Co-operative Societies Rules, 1973</a></li>  
+                            	<li><a href="Pdf/Cooperative act&rule/Act1972.pdf" title="PCS ACT, 1972" target="new">Puducherry Co-operative Societies Act, 1972</a></li>
+        						<li><a href="Pdf/Cooperative act&rule/Rules1973.pdf" title="PSC RULES, 1973" target="new">Puducherry Co-operative Societies Rules, 1973</a></li>  
                             	</ul>
                            </li>
                         	<li class="dropdown">
                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Right To Information<i class="fa fa-angle-down"></i></a>
                             	<ul class="dropdown-menu">
-	                                <li><a href="COOPDEPT&#32;RTI/INTRODUCTION.pdf" title="INTRODUCTION" target="new">RTI Introduction</a></li>
-							        <li><a href="rti_rules_2012.pdf" title="RTI RULES 2012" target="new">RTI Rules 2012</a></li>
+	                                <li><a href="Pdf/Right to information/INTRODUCTION.pdf"" title="INTRODUCTION" target="new">RTI Introduction</a></li>
+							        <li><a href="Pdf/Right to information/rti_rules_2012.pdf" title="RTI RULES 2012" target="new">RTI Rules 2012</a></li>
 							        <li><a href="MANUAL.html" title="RTI MANUALS">RTI Manuals</a></li>
 							        <li><a href="RTIQTR&#32;FORM.html" title="RTI QUARTERLY FORM">RTI Quarterly reports</a></li>
 							        <li><a href="RTIFAPPL.html" title="RTI FIRST APPELLATE">Proceedings of First Appellate Authority</a></li>
@@ -122,7 +64,7 @@
                             	</ul>
                         	</li>
                         	<li>
-                        		<a href="citizencharter.pdf">Citizen Charter</a>
+                        		<a href="Pdf/Citizencharter/citizencharter.pdf">Citizen Charter</a>
                         	</li> 
                         	<li class="dropdown">
                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads<i class="fa fa-angle-down"></i></a>
@@ -213,13 +155,13 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">List of Co-operative Societies<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="ListHandloom.pdf" title="HANDLOOMS" target="new">Handlooms</a></li>
-						        <li><a href="ListConsumers.pdf" title="CONSUMERS" target="new">Consumers</a></li>
-						        <li><a href="Listplanning.pdf" title="PLANNING" target="new">Employees Credit Societies</a></li>
-						        <li><a href="Listdairy.pdf" title="LIST OF DAIRY" target="new">Dairy</a></li>
-						        <li><a href="Listhouse.pdf" title="HOUSING" target="new">Housing</a></li>
-						        <li><a href="Listcredit.pdf" title="CREDIT" target="new">Credit</a></li>
-						        <li><a href="ListMiscl.pdf" title="MISCELLANEOUS SOCIETY" target="new">Miscellaneous</a></li>
+                                <li><a href="Pdf/list of cooperative societies/ListHandloom.pdf" title="HANDLOOMS" target="new">Handlooms</a></li>
+						        <li><a href="Pdf/list of cooperative societies/ListConsumers.pdf" title="CONSUMERS" target="new">Consumers</a></li>
+						        <li><a href="Pdf/list of cooperative societies/Listplanning.pdf" title="PLANNING" target="new">Employees Credit Societies</a></li>
+						        <li><a href="Pdf/list of cooperative societies/Listdairy.pdf" title="LIST OF DAIRY" target="new">Dairy</a></li>
+						        <li><a href="Pdf/list of cooperative societies/ListHouse.pdf" title="HOUSING" target="new">Housing</a></li>
+						        <li><a href="Pdf/list of cooperative societies/Listcredit.pdf" title="CREDIT" target="new">Credit</a></li>
+						        <li><a href="Pdf/list of cooperative societies/ListMiscl.pdf" title="MISCELLANEOUS SOCIETY" target="new">Miscellaneous</a></li>
                             </ul>
                         </li>
                         <li><a href="publication.html" title="PUBLICATION">Publications</a></li> 
@@ -229,11 +171,11 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruitment Rules<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="JRCS_RR.pdf" title="RECRUITMENT RULES" target="new">Joint Registrar of Cooperative Societies</a></li>
-						        <li><a href="DDO_RR.pdf" title="RECRUITMENT RULES" target="new">Dairy Development Officer</a></li>
-						        <li><a href="DRCS_RR.pdf" title="RECRUITMENT RULES" target="new">Deputy Registrar of Cooperative Societies</a></li>
-						        <li><a href="RR.pdf" title="Tech.Supervisor/Co-op. Officer/Sr.Inspector/Jr.Inspector(Pre-revised" target="new">1.T.S       2.C.O     3.S.I    4.J.I(pre-revised)</a></li>
-						        <li><a href="RR_JI_Revised.pdf" title="Jr.Inspector(Revised)" target="new">Jr.Inspector(Revised)</a></li>
+                                <li><a href="JPdf/Recruitment Rules/JRCS_RR.pdf" title="RECRUITMENT RULES" target="new">Joint Registrar of Cooperative Societies</a></li>
+						        <li><a href="Pdf/Recruitment Rules/DDO_RR.pdf" title="RECRUITMENT RULES" target="new">Dairy Development Officer</a></li>
+						        <li><a href="Pdf/Recruitment Rules/DRCS_RR.pdf" title="RECRUITMENT RULES" target="new">Deputy Registrar of Cooperative Societies</a></li>
+						        <li><a href="Pdf/Recruitment Rules/RR.pdf" title="Tech.Supervisor/Co-op. Officer/Sr.Inspector/Jr.Inspector(Pre-revised" target="new">1.T.S       2.C.O     3.S.I    4.J.I(pre-revised)</a></li>
+						        <li><a href="Pdf/Recruitment Rules/RR_JI_Revised.pdf" title="Jr.Inspector(Revised)" target="new">Jr.Inspector(Revised)</a></li>
                             </ul>
                         </li>
                         <li><a href="GOS.html" title="GOVERNMENT ORDERS">Government Orders</li>
@@ -246,76 +188,85 @@
         
  </header><!--/header-->
  
- <section id="main-slider" class="no-margin">
-        <div class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-
-                <div class="item active" style="background-image: url(images/slider/pic1.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-
-                <div class="item" style="background-image: url(images/slider/pic2.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">   
-                                </div>
-                            </div>                            
-                        </div>
-                    </div>
-                </div><!--/.item-->              
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="fa fa-chevron-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="fa fa-chevron-right"></i>
-        </a>
-    </section><!--/#main-slider-->
+ 
 
    <!-- <!--slidder part--> 
-   <!-- <section id"slidder">
-   		<div class="container">
-   			<div style="padding:0px; margin:0px; background-color:#fff;font-family:helvetica, arial, verdana, sans-serif">
-   				
-		   	<div class="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 700px; height: 443px; overflow: hidden; visibility: hidden;">
-		        <!-- Loading Screen -->
-		        
-		      <!-- <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 700px; height: 443px; overflow: hidden;">
-		            
-		            <div data-p="112.50">
-		                <img data-u="image" src="images/slider/pic2.jpg" />
-		            </div>
-		            <div data-p="112.50" style="display: none;">
-		                <img data-u="image" src="images/slider/pic1.jpg" />
-		            </div>
-		            
-		        </div> -->
-		        <!-- Bullet Navigator -->
-		        <!-- <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">
-		            <div data-u="prototype" style="width:12px;height:12px;"></div>
-		        </div> --> -->
-		        <!-- Arrow Navigator -->
-		        <!-- <span data-u="arrowleft" class="jssora05l" style="top:0px;left:8px;width:40px;height:40px;" data-autocenter="2"></span>
-		        <span data-u="arrowright" class="jssora05r" style="top:0px;right:8px;width:40px;height:40px;" data-autocenter="2"></span>
-		    </div>
-   			
-   			</div>
-   		</div>
-   </section> --> 
+   <div class="container">
+   <div id="slidder">
+   	<div class="row">
+       <div class="col-sm-3 col-xs-3">
+	       	<div id = "left-scroll pull-right">
+	            <!-- <div class="update">
+	            
+				<marquee behavior="scroll" direction="up"  scrollamount="5" scrolldelay="150" height="350px">
+				<a href="pdf/Latest news/Padma Awards.pdf" target="new"><b>LATEST UPDATE:</b>&nbsp;&nbsp;<br/>GOI, Ministry of Textiles, New Delhi - Online nomination_recommendations for the padma awards to be announced on the occasion of Republic Day-2017 - Requested.</a> &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="pdf/Latest news/COM_SC.pdf" target="new">Circular - PCS Act,1972 - S.32(3) - Reservation of seats for SC members in COM of primary co-op. societies - Amendment of bye-laws - Action - Requested.</a>	 &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="pdf/Latest news/AGB.pdf"target="new">Circular - Conduct of annual general body meeting - Appropriation of net profit - Payment of dividend on Govt. shares - Action - Requested.</a> &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href=""target="new">Recruitment of Junior Inspectors - Notification for candidates sponsored through Employment Exchange – Issued</a> &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="" target="new">Notification – Direct recruitment to the post of Junior Inspectors of co-op. societies – Issued</a> &nbsp;&nbsp;&nbsp;&nbsp;
+				</marquee>
+				</div> -->
+	        </div>              
+       </div>
+       <div class="col-sm-6 col-xs-6">
+          <div class="sliderlinks">
+            <img src="images/slider/pic1.jpg">
+            
+            <img src="images/slider/pic2.jpg">           
+            <img src="images/slider/pic2.jpg">
+            <img src="images/slider/pic1.jpg">
+            
+        </div>
+        <div class="slider">
+            <div class="cube1 cube">
+                <div class="face1 face"></div>
+                <div class="face2 face"></div>
+                <div class="face3 face"></div>
+                <div class="face4 face"></div>
+                <div class="face5 face"></div>
+                <div class="face6 face"></div>
+            </div>
+            <div class="cube2 cube">
+                <div class="face1 face"></div>
+                <div class="face2 face"></div>
+                <div class="face3 face"></div>
+                <div class="face4 face"></div>
+                <div class="face5 face"></div>
+                <div class="face6 face"></div>
+            </div>
+            <div class="cube3 cube">
+                <div class="face1 face"></div>
+                <div class="face2 face"></div>
+                <div class="face3 face"></div>
+                <div class="face4 face"></div>
+                <div class="face5 face"></div>
+                <div class="face6 face"></div>
+            </div>
+            <div class="cube4 cube">
+                <div class="face1 face"></div>
+                <div class="face2 face"></div>
+                <div class="face3 face"></div>
+                <div class="face4 face"></div>
+                <div class="face5 face"></div>
+                <div class="face6 face"></div>
+            </div>
+            	<div class="clear-fix"></div>
+       		 </div>
+       	</div>
+       	 <div class="col-sm-3 col-xs-3">
+             
+				<!-- <div class="recr">
+				<marquee behavior="scroll" direction="up"  scrollamount="5" scrolldelay="150" height="350px">
+				<a href="pdf/Latest news/Padma Awards.pdf" target="new"><b>RECRUITMENT OF JUNIOR INSPECTORS - 2016:</b>&nbsp;&nbsp; Notification for candidates sponsored through Employment Exchange.</a> &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="pdf/Latest news/COM_SC.pdf" target="new">Application Notification.</a>	 &nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="pdf/Latest news/AGB.pdf"target="new">Question Booklet of JI exam 2006.</a> &nbsp;&nbsp;&nbsp;&nbsp;
+				</marquee>
+				</div>	 -->	
+			           
+       	</div>
+   	</div>	
+   </div> 
+   </div>
    <!--/slidder part--> 
 
 <!-- Latest Update -->
@@ -329,9 +280,10 @@
 				<a href="" target="new">Notification – Direct recruitment to the post of Junior Inspectors of co-op. societies – Issued</a> &nbsp;&nbsp;&nbsp;&nbsp;
 		</marquee>
 	</div>	
-		</section>		
+</section>	 	
 	<!-- Latest Update finished -->		
-    	<section id="recent-works">
+	<!-- government start---->
+   <section id="recent-works">
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2>GOVERNMENT</h2>
@@ -340,13 +292,14 @@
 
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4">
+                
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/LG1.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/recent/LG1.jpg" alt="Governor">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">The Lieutenant Governor</a> </h3>
+                                <h3><a href="#">The Lieutenant Governor</a></h3>
                                 <p><b>Dr. KIRAN BEDI, IPS (Retd.)</b></p>
-                                <a class="preview" href="images/portfolio/full/LG1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <a class="gover" href="Governor.html" target="new"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -354,12 +307,12 @@
 
                 <div class="col-xs-4 col-sm-4 col-md-4">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
+                        <img class="img-responsive" src="images/portfolio/full/item8.png" alt="Chief Minister">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#"> Chief Minister</a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <p><b>NARAYANA SAMY</b></p>
+                                <a class="cm" href="CM.html" target="new"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -367,12 +320,12 @@
 
                 <div class="col-xs-4 col-sm-4 col-md-4">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/full/item8.png" alt="">
+                        <img class="img-responsive" src="images/portfolio/full/item8.png" alt="Ministor for co-operation">
                         <div class="overlay">
                             <div class="recent-work-inner">
                                 <h3><a href="#">Minister for Co-operation </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <p>Unknown</p>
+                               <a class="mco" href="ministor_co.html" target="new"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -381,12 +334,12 @@
 				<div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/CS-Manoj.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/recent/CS-Manoj.jpg" alt="Chief Secretary">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"> Chief Secretary </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/CS-Manoj.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <h3><a href="#"> CHIEF SECRETARY</a></h3>
+                                <p><b>Shri. MANOJ PARIDA, I.A.S., (AGMU: 1986)</b></p>
+                                <a class="cs" href="chiefsecretary.html" target="new"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -397,9 +350,9 @@
                         <img class="img-responsive" src="images/portfolio/recent/sec_coop.jpg" alt="">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#"> Secretary (Co-operation)</a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/sec_coop.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <h3><a href="#"> SECRETARY (CO-OPERATION)</a></h3>
+                                <p>Mr. Shri Arun L Desai, I.A.S.,</p>
+                                <a class="scop" href="secretary_cop.html" target="new"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -407,12 +360,12 @@
 
                 <div class="col-xs-4 col-sm-4 col-md-4">
                     <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/rcs.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/full/rcs.jpg" alt="Register of co-operative societies">
                         <div class="overlay">
                             <div class="recent-work-inner">
-                                <h3><a href="#">Registrar of Co-operative Societies </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/rcs.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
+                                <h3><a href="#">REGISTRAR OF CO-OPERATIVE SOCIETIES</a></h3>
+                                <p>Dr.A.S. SIVAKUMAR</p>
+                                <a class="rcops" href="registrarcops.html" target="new"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
@@ -422,25 +375,41 @@
             </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#recent-works-->
-    </section>
     <!--- buttons----->
-    <div class="collapse navbar-collapse navbar-left">
+    
+    <div class="top-bar">
+            <div class="container">
+            	<div class="row">
+            	<div class="col-sm-3 col-xs-3">
+            	</div>
+            	<div class="col-sm-6 col-xs-6">
+            	<ul class="breadcrumb" font-size: "20px";>
+            		
+						<li><a href="comp_cir.html">COMPENDIUM OF CIRCULARS</a></li>
+                        <li><a href="useful.html">USEFUL LINKS</a></li> 
+                        <li><a href="faq.html">FREQUENTLY ASKED QUESTIONS</a></li> 
+            		
+            	</ul>
+            	</div>
+            	<div class="col-sm-3 col-xs-3">
+            	</div>
+            	</div>
+            </div>
+    </div>
+    <!-- <section class="container">
+    		<div class="collapse navbar-collapse navbar-left">
                     <ul class="nav navbar-nav">
                         <li><a href="comp_cir.html">COMPENDIUM OF CIRCULARS</a></li>
-                        <li><a href="useful.html">USEFUL LINKS</a</li> 
+                        <li><a href="useful.html">USEFUL LINKS</a></li> 
                         <li><a href="faq.html">FREQUENTLY ASKED QUESTIONS</a></li>                         
                     </ul>
-        </div>
-    <!-- <div class="COC">
-    <a class="button" href="#">COMPENDIUM OF CIRCULARS</a>&nbsp;
-    <a class="button1" href="#">USEFUL LINKS</a>
-    <a class="button2" href="#">FREQUENTLY ASKED QUESTIONS</a>
-    </div> -->
-    
+    		</div>
+    </section>
+     -->
     
     
 <!-- RECRUITMENT-->
-<section class="container">
+ <section class="container">
 	<div class="recr">
 	<marquee behavior="scroll" direction="left"  scrollamount="5" scrolldelay="150">
 				<a href="pdf/Latest news/Padma Awards.pdf" target="new"><b>RECRUITMENT OF JUNIOR INSPECTORS - 2016:</b>&nbsp;&nbsp; Notification for candidates sponsored through Employment Exchange.</a> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -496,6 +465,9 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/jquery-3.1.0.slim.min.js"></script>
+    <script src="js/Ali_Slider.js"></script>
+    <script type="text/javascript"></script>
     
    
 </body>
