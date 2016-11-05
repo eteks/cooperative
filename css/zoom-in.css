@@ -1,0 +1,43 @@
+.button {
+background-color: crimson;
+background-image: -webkit-linear-gradient(top, crimson, crimson);
+background-image: -moz-linear-gradient(top,crimson,crimson);
+display: inline-block;
+font-size: 10px;
+font-family: 'Meiryo UI';
+color: #fff;
+text-decoration: none !important;
+padding: 5px 5px;
+line-height: inherit;
+overflow: hidden;
+position: relative;
+border-radius: 2px;
+/*margin-top: 13px;
+margin-bottom: 10px*/;
+}
+	.button:hover {
+		opacity: 0.9;
+	}
+	
+	.incfont{
+	background-color:#c52d2f;
+    background-image: -webkit-linear-gradient(top,#c52d2f, #c52d2f);
+    background-image: -moz-linear-gradient(top,#c52d2f,#c52d2f);
+	color:white;
+	}
+	.decfont{
+	background-color: #c52d2f;
+    background-image: -webkit-linear-gradient(top, #c52d2f, #c52d2f);
+    background-image: -moz-linear-gradient(top,#c52d2f,#c52d2f);
+	color:white;
+	}
+	/*#fontlinks{
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:0px;
+	margin-bottom:5px;
+	text-align:center;
+	}*/
+	.buttonfont{
+	color:dimgrey;
+	}
