@@ -15,6 +15,8 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/slidder.css" rel="stylesheet">
+    <link href="css/zoom-in.css" rel="stylesheet">
+    
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -30,17 +32,18 @@
 </head><!--/head-->
 
 <body class="homepage">
-<div class="content">
+
     <header id="header">
     	
     	<!--header Menus-->
         <div class="top-bar">
             <div class="container">
+            	<div id = "content">
                 <div class="row">
-                    <div class="col-sm-1 col-xs-2">
+                    <!-- <div class="col-sm-1 col-xs-2">
                            
-                    </div>
-                    <div class="col-sm-11 col-xs-">
+                    </div> -->
+                    <div class="col-sm-12 col-xs-12 ">
                        <ul class="breadcrumb pull-right">
 						    <li>
 						    	<a href="SCHEMES.html">Projects &amp; Schemes</a>
@@ -71,13 +74,13 @@
                         	<li>
                         		<a href="form.html" title="FORM" target="new">Downloads</a>
                         	</li>
-                        	<!-- <li class="dropdown">
+                        	<li class="dropdown">
                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads<i class="fa fa-angle-down"></i></a>
                             	<ul class="dropdown-menu">
                             	<li><a href="Form.html" title="FORM" target="new">Forms</a></li>
         						  
                             	</ul>
-                           </li> -->
+                           </li> 
    						 	<li>
    						 		<a href="contactus.html" title="CONTACT US">Contact us</a>
    						 	</li>
@@ -87,10 +90,15 @@
                                     <i class="fa fa-search"></i>
                                 </form>
                            </div>
+                           <!-- <a href="#" class ="incfont" class="button buttonfont">A+</a>
+							<a href="#" class ="decfont" class="button buttonfont">A-</a>
+                            -->
+						
 						</ul>
 						
                     </div>
                 </div>
+               </div>
             </div><!--/.container-->
         </div>
         <!--/header Menus-->
@@ -103,7 +111,7 @@
 				                	
 				                    <div class="col-sm-1 col-xs-1 ">
 				                        
-				                        <div class= "logo1 pull-right"><img src="images/logo/200px-Emblem_of_India_svg.png" alt="" width="55" height="80" align="middle" /></div>
+				                        <div id="logo1 pull-right"><img src="images/logo/logo1.png" alt=""/></div>
 				
 				                    </div>
 				                    <div class="col-sm-10 col-xs-10">
@@ -116,7 +124,7 @@
 				                       <div class="col-sm-1 col-xs-1 ">
 				                       	<div id="logo3">
 				                       
-				                              <img src="images/logo/Indian-Flag-Animated-Wallpaper31.gif" alt=""  width="68" height="80"/>
+				                              <img src="images/logo/Indian-Flag-Animated-Wallpaper31.gif" alt=""/>
 				                    	</div>	  
 				                       
 				                       </div>
@@ -460,8 +468,10 @@
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery-3.1.0.slim.min.js"></script>
-    <script src="js/Ali_Slider.js"></script>
-    <script src="js/jssor.slider-21.1.6.mini.js"></script>
+    <!-- <script src="js/Ali_Slider.js"></script> -->
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-21.1.6.mini.js" type="text/javascript"></script>
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script type="text/javascript">
     	
     	jQuery(document).ready(function ($) {
@@ -515,7 +525,21 @@
             /*responsive code end*/
         });
     </script>
-    
+  
+    <script type="text/javascript">
+	 $(document).ready(function() { 
+		$('#incfont').click(function(){	   
+        curSize= parseInt($('#content').css('font-size')) + 2;
+		if(curSize<=20)
+        $('#content').css('font-size', curSize);
+        });  
+		$('#decfont').click(function(){	   
+        curSize= parseInt($('#content').css('font-size')) - 2;
+		if(curSize>=12)
+        $('#content').css('font-size', curSize);
+        }); 
+	});
+</script>
  </div>  
 </body>
 </html>
