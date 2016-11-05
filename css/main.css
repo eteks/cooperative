@@ -25,7 +25,7 @@ h6 {
 }
 
 h1{
-  font-size: 36px;
+  font-size: 30px;
   color:#fff;
 }
 
@@ -284,16 +284,16 @@ input.search-form:hover {
 }
 
  .navbar-nav{
-  margin-top: 12px;
+  margin-top: 10px;
  }
 
 .navbar-nav>li{
-  margin-left: 20px;
-  padding-bottom: 28px;
+  margin-left: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 5px 12px;
+  padding: 3px 12px;
   margin: 0;
   border-radius: 3px;
   color: #fff;
@@ -345,7 +345,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li > a {
-  padding: 8px 15px;
+  padding: 4px 10px;
   color: #fff;
 }
 
@@ -963,7 +963,7 @@ a.accordion-toggle  i{
   height: auto;
   border-style:solid;
   border-color: transparent transparent transparent #1f1f20;
-  border-width: 25px 22px;
+  /*border-width: 25px 22px;*/
   right: -44px;
   top:0;
 }
