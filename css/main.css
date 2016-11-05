@@ -352,9 +352,18 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: #c52d2f !important;
+  background-color: #c52d2f ;
   color: #fff;
   
+}
+.co-op>li:hover >a,
+.co-op>li:focus >a{
+	background-color: #c52d2f !important;
+  color: #fff;
+  
+}
+.co-op > li.divider {
+  background-color: transparent !important;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
@@ -373,7 +382,7 @@ input.search-form:hover {
 /*******Header Menus******/
 
 .breadcrumb {background: #44CF61; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block;}
-.breadcrumb li {font-size: 13px;font-weight: 900;}
+.breadcrumb li {font-size: 12px;font-weight: 800;}
 .breadcrumb a {color: rgba(235, 240, 245, 1);}
 .breadcrumb a:hover {color: rgba(204, 33, 39, 1);}
 .breadcrumb>.active {color: rgba(204, 18, 18, 1);}
@@ -2497,6 +2506,7 @@ ul.sidebar-gallery {
   color: #4e4e4e;
   text-transform: uppercase;
 }
+
 
 
 /******************
