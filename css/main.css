@@ -185,8 +185,8 @@ body > section {
 
 .top-bar {
   padding: 8px 8px;
-  background: #44CF61;
-  border-bottom: 1px solid #222;
+  background: #196F3D;
+  /*border-bottom: 1px solid #222;*/
   line-height: 28px;
 }
 
@@ -284,7 +284,7 @@ input.search-form:hover {
 }
 
  .navbar-nav{
-  margin-top: 10px;
+  margin-top: 0;
  }
 
 .navbar-nav>li{
@@ -293,7 +293,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 3px 12px;
+  padding: 4px 5px;
   margin: 0;
   border-radius: 3px;
   color: #fff;
@@ -378,10 +378,11 @@ input.search-form:hover {
 .navbar-inverse .navbar-form {
   border-top: 0;
   padding-bottom: 0;
+  /*float:center;*/
 }
 /*******Header Menus******/
 
-.breadcrumb {background: #44CF61; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block;}
+.breadcrumb {background: #196F3D; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block;}
 .breadcrumb li {font-size: 11px;font-weight: 800;}
 .breadcrumb a {color: rgba(235, 240, 245, 1);}
 .breadcrumb a:hover {color: rgba(204, 33, 39, 1);}
@@ -396,33 +397,60 @@ input.search-form:hover {
 
 /*******End of Header Menus******/
 /*******Logo******/
+
 .logo{
-	padding: 6px 0;
+	padding: 3px 0;
   background: #44CF61   ;
   border-bottom: 1px solid #222;
-  line-height: 20px;
+  /*line-height: 20px;*/
+}
+.logo{
+	/*margin: 1em 0 0.5em 0;*/
+	color: blue;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 39px;
+	line-height: 66px;
+	/*text-transform: uppercase;*/
+	text-shadow: 0 2px white, 0 3px #777;
 }
 /*.top-logo{
 	padding: 8px 0;
   background: #191919;
 }*/
 #logo1>img {
-	width:60px;
-	height: 80px;
+	width:50px;
+	height: 70px;
+	float: center;
+	margin-top: 4px;
 }
-#logo3>img {
-	width:60px;
-	height: 80px;
-}
+/*#logo3{
+font-family: helvetica, arial, verdana, sans-serif;
+font-size: 40px;
+color: #F7F9F9;
+font-weight: 700;
+line-height: 90px;
+padding: 10px 0;*/
 
+}
+#logo3{
+	margin: 1em 0 0.5em 0;
+	color: white;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
 #logo2{
 font-family: helvetica, arial, verdana, sans-serif;
-font-size: 25px;
-color: #F7F9F9;
-font-weight: 300;
+font-size: 14px;
+color: blue;
+font-weight: 200;
 line-height: 24px;
-padding: 10px 0;
-float: center;
+padding: none;
+
 }
 
 /*******End of logo******/
@@ -431,14 +459,43 @@ float: center;
 /*************************
 *******Home Page******
 **************************/
+/* lists on home page right panel*/
+.update-title {
+	color: #fff;
+	background-color: #196F3D;
+	padding: 5px;
+}
+#panel-right li a {
+	color: #c52d2f;
+}
+#panel-right li a:hover {
+	color: #196F3D;
+	}
+.list-update {
+	text-align: left;
+    line-height: 1.5;
+}
 
-/*#left-scroll{
-	margin: 0 15px 0 0;
-	background-color: #c52d2f;
-	color: #F7F9F9; */
-	
+.jobs-link {
+	padding: 0 5px !important;
+}
+.jobs-link a{
+	/*list-styel-type: none;*/
+	padding: 10px 0 !important;
+	margin: 5px 0 !important;
+	font-size: 14px;
 	
 }
+/*.scroll1 {
+	margin:none;
+	background-color: white;
+	color: blue; 
+	border: blue 2px solid;
+	padding: 1px;
+	 height: 490px ;logo
+	 width: 270px;
+	
+}*/
 #main-slider {
   position: relative;
 }
