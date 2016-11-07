@@ -184,7 +184,7 @@ body > section {
 }
 
 .top-bar {
-  padding: 5px 5px;
+  padding: 8px 8px;
   background: #44CF61;
   border-bottom: 1px solid #222;
   line-height: 28px;
@@ -381,8 +381,13 @@ input.search-form:hover {
 }
 /*******Header Menus******/
 
+<<<<<<< HEAD
 .breadcrumb {background: #44CF61; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block; margin-right:50px;}
 .breadcrumb li {font-size: 12px;font-weight: 800;}
+=======
+.breadcrumb {background: #44CF61; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block;}
+.breadcrumb li {font-size: 11px;font-weight: 800;}
+>>>>>>> 4f6e47b5280af6d259b41adb640bd28e6673aa05
 .breadcrumb a {color: rgba(235, 240, 245, 1);}
 .breadcrumb a:hover {color: rgba(204, 33, 39, 1);}
 .breadcrumb>.active {color: rgba(204, 18, 18, 1);}
@@ -421,7 +426,8 @@ font-size: 25px;
 color: #F7F9F9;
 font-weight: 300;
 line-height: 24px;
-padding: 13px 0;
+padding: 10px 0;
+float: center;
 }
 
 /*******End of logo******/
@@ -431,10 +437,11 @@ padding: 13px 0;
 *******Home Page******
 **************************/
 
-#left-scroll{
+/*#left-scroll{
 	margin: 0 15px 0 0;
 	background-color: #c52d2f;
-	color: #F7F9F9;
+	color: #F7F9F9; */
+	
 	
 }
 #main-slider {
