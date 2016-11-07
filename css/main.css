@@ -7,7 +7,8 @@
 
 body {
   background: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Arial,Helvetica,sans-serif;
+  font-size: 16px;
   color:#4e4e4e;
   line-height: 22px;
   overflow-x:hidden;
@@ -30,7 +31,8 @@ h1{
 }
 
 h2{
-  font-size: 20px;
+  color: black;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 h3{
@@ -46,6 +48,7 @@ h4{
 
 a {
   color: #c52d2f;
+  font-family:"Arial,Helvetica,sans-serif";
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -185,8 +188,8 @@ body > section {
 
 .top-bar {
   padding: 8px 8px;
-  background: #196F3D;
-  /*border-bottom: 1px solid #222;*/
+  background: FFFDF8;
+  border-bottom: 1px solid #222;
   line-height: 28px;
 }
 
@@ -284,7 +287,7 @@ input.search-form:hover {
 }
 
  .navbar-nav{
-  margin-top: 0;
+  margin-top: 10px;
  }
 
 .navbar-nav>li{
@@ -293,7 +296,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 4px 5px;
+  padding: 3px 12px;
   margin: 0;
   border-radius: 3px;
   color: #fff;
@@ -378,12 +381,16 @@ input.search-form:hover {
 .navbar-inverse .navbar-form {
   border-top: 0;
   padding-bottom: 0;
-  /*float:center;*/
 }
 /*******Header Menus******/
 
-.breadcrumb {background: #196F3D; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block;}
+<<<<<<< HEAD
+.breadcrumb {background: #44CF61; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block; margin-right:50px;}
+.breadcrumb li {font-size: 12px;font-weight: 800;}
+=======
+.breadcrumb {background: #44CF61; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block;}
 .breadcrumb li {font-size: 11px;font-weight: 800;}
+>>>>>>> 4f6e47b5280af6d259b41adb640bd28e6673aa05
 .breadcrumb a {color: rgba(235, 240, 245, 1);}
 .breadcrumb a:hover {color: rgba(204, 33, 39, 1);}
 .breadcrumb>.active {color: rgba(204, 18, 18, 1);}
@@ -397,60 +404,33 @@ input.search-form:hover {
 
 /*******End of Header Menus******/
 /*******Logo******/
-
 .logo{
-	padding: 3px 0;
-  background: #44CF61   ;
+	padding: 6px 0;
+  background: #FF5108;
   border-bottom: 1px solid #222;
-  /*line-height: 20px;*/
-}
-.logo{
-	/*margin: 1em 0 0.5em 0;*/
-	color: blue;
-	font-weight: normal;
-	font-family: 'Ultra', sans-serif;   
-	font-size: 39px;
-	line-height: 66px;
-	/*text-transform: uppercase;*/
-	text-shadow: 0 2px white, 0 3px #777;
+  line-height: 20px;
 }
 /*.top-logo{
 	padding: 8px 0;
   background: #191919;
 }*/
 #logo1>img {
-	width:50px;
-	height: 70px;
-	float: center;
-	margin-top: 4px;
+	width:60px;
+	height: 80px;
 }
-/*#logo3{
-font-family: helvetica, arial, verdana, sans-serif;
-font-size: 40px;
-color: #F7F9F9;
-font-weight: 700;
-line-height: 90px;
-padding: 10px 0;*/
+#logo3>img {
+	width:60px;
+	height: 80px;
+}
 
-}
-#logo3{
-	margin: 1em 0 0.5em 0;
-	color: white;
-	font-weight: normal;
-	font-family: 'Ultra', sans-serif;   
-	font-size: 36px;
-	line-height: 42px;
-	text-transform: uppercase;
-	text-shadow: 0 2px white, 0 3px #777;
-}
 #logo2{
 font-family: helvetica, arial, verdana, sans-serif;
-font-size: 14px;
-color: blue;
-font-weight: 200;
+font-size: 25px;
+color: #F7F9F9;
+font-weight: 300;
 line-height: 24px;
-padding: none;
-
+padding: 10px 0;
+float: center;
 }
 
 /*******End of logo******/
@@ -459,43 +439,14 @@ padding: none;
 /*************************
 *******Home Page******
 **************************/
-/* lists on home page right panel*/
-.update-title {
-	color: #fff;
-	background-color: #196F3D;
-	padding: 5px;
-}
-#panel-right li a {
-	color: #c52d2f;
-}
-#panel-right li a:hover {
-	color: #196F3D;
-	}
-.list-update {
-	text-align: left;
-    line-height: 1.5;
-}
 
-.jobs-link {
-	padding: 0 5px !important;
-}
-.jobs-link a{
-	/*list-styel-type: none;*/
-	padding: 10px 0 !important;
-	margin: 5px 0 !important;
-	font-size: 14px;
+/*#left-scroll{
+	margin: 0 15px 0 0;
+	background-color: #c52d2f;
+	color: #F7F9F9; */
+	
 	
 }
-/*.scroll1 {
-	margin:none;
-	background-color: white;
-	color: blue; 
-	border: blue 2px solid;
-	padding: 1px;
-	 height: 490px ;logo
-	 width: 270px;
-	
-}*/
 #main-slider {
   position: relative;
 }
@@ -2596,6 +2547,13 @@ shortcodes page css
 /***********************
 ********* Footer ******
 ************************/
+.top-bar2 {
+  padding: 8px 8px;
+  background: #FF5108;
+  border-bottom: 1px solid #222;
+  line-height: 28px;
+  color: black;
+}
 #container{
 	width:100%;
 	height:200%;
