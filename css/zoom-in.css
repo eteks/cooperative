@@ -1,5 +1,5 @@
 .button {
-background-color: crimson;
+background-color: white;
 background-image: -webkit-linear-gradient(top, crimson, crimson);
 background-image: -moz-linear-gradient(top,crimson,crimson);
 display: inline-block;
@@ -20,16 +20,16 @@ margin-bottom: 10px*/;
 	}
 	
 	.incfont{
-	background-color:#c52d2f;
-    background-image: -webkit-linear-gradient(top,#c52d2f, #c52d2f);
-    background-image: -moz-linear-gradient(top,#c52d2f,#c52d2f);
-	color:white;
+	background-color:white;
+    background-image: -webkit-linear-gradient(top,white, white);
+    background-image: -moz-linear-gradient(top,white,white);
+	color:blue;
 	}
 	.decfont{
-	background-color: #c52d2f;
-    background-image: -webkit-linear-gradient(top, #c52d2f, #c52d2f);
-    background-image: -moz-linear-gradient(top,#c52d2f,#c52d2f);
-	color:white;
+	background-color:white;
+    background-image: -webkit-linear-gradient(top,white, white);
+    background-image: -moz-linear-gradient(top,white,white);
+	color:blue;
 	}
 	/*#fontlinks{
 	margin-left:30%;
