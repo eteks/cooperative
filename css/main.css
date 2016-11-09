@@ -6,7 +6,7 @@
 **************************/
 
 body {
-  background: #fff;
+  background: #D9D9D9;
   font-family: 'Arial,Helvetica,sans-serif;
   font-size: 16px;
   color:#4e4e4e;
@@ -47,7 +47,7 @@ h4{
 }
 
 a {
-  color: update;
+  color: #c52d2f;
   font-family:"Arial,Helvetica,sans-serif";
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
@@ -101,13 +101,13 @@ a:focus {
 
 .dropdown-menu {
   margin-top: -1px;
-  min-width: 350px;
+  min-width: 240px;
 }
 
 .center h2{
-  font-size: 36px;
-  margin-top: 0;
-  margin-bottom: 20px;	
+  font-size: 34px;
+  margin-top: 60px;
+  margin-bottom: 0;color: blue;
 }
 
 .media>.pull-left{
@@ -188,7 +188,7 @@ body > section {
 
 .top-bar {
   padding: 8px 8px;
-  background: FFFDF8;
+  background: #4484C4;
   border-bottom: 1px solid #222;
   line-height: 28px;
 }
@@ -245,7 +245,7 @@ ul.social-share li a:hover {
 }
 
 .search i {
-  color: blue;
+  color: #c52d2f;
 }
 
 input.search-form{
@@ -279,24 +279,26 @@ input.search-form:hover {
 }
 
 .navbar {
-  border-radius: 0;
+  
   margin-bottom: 0;
-  background: #151515;
-  padding: 15px 0;
+  background: #4484CE;  
   padding-bottom: 0;
+ 
 }
 
  .navbar-nav{
   margin-top: 10px;
+  
  }
 
 .navbar-nav>li{
   margin-left: 10px;
   padding-bottom: 10px;
+  margin-right: 3px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 3px 12px;
+  padding: 5px 12px;
   margin: 0;
   border-radius: 3px;
   color: #fff;
@@ -384,14 +386,11 @@ input.search-form:hover {
 }
 /*******Header Menus******/
 
-<<<<<<< HEAD
-.breadcrumb {background: #44CF61; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block; margin-right:50px;}
-.breadcrumb li {font-size: 13px;font-weight: 900;}
-=======
-.breadcrumb {background: #44CF61; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block;}
+
+.breadcrumb {background: white; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block; margin-right:40px;}
 .breadcrumb li {font-size: 11px;font-weight: 800;}
->>>>>>> 4f6e47b5280af6d259b41adb640bd28e6673aa05
-.breadcrumb a {color: rgba(235, 240, 245, 1);}
+
+.breadcrumb a {color:blue;}
 .breadcrumb a:hover {color: rgba(204, 33, 39, 1);}
 .breadcrumb>.active {color: rgba(204, 18, 18, 1);}
 .breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
@@ -404,57 +403,52 @@ input.search-form:hover {
 
 /*******End of Header Menus******/
 /*******Logo******/
-.logo{
-	padding: 3px 0;
-  background: #FF9900   ;
-  border-bottom: 1px solid #222;
-  /*line-height: 20px;*/
-}
+
 .logo{
 	/*margin: 1em 0 0.5em 0;*/
-	color: white;
+	color: blue;
 	font-weight: normal;
 	font-family: 'Ultra', sans-serif;   
 	font-size: 39px;
-	line-height: 66px;
+	line-height: 60px;
 	/*text-transform: uppercase;*/
 	text-shadow: 0 2px white, 0 3px #777;
+	margin-top: 14px;
+	padding: 3px 0;
+  background: #D9D9D9;
+  border-bottom: 1px solid #222;
 }
 /*.top-logo{
 	padding: 8px 0;
   background: #191919;
 }*/
-#logo1>img {
+#logo1 img {
 	width:50px;
 	height: 70px;
 	float: center;
-	margin-top: 4px;
+	/*margin-top: 2px;*/
+	padding: -4px;
 }
-/*#logo3{
-font-family: helvetica, arial, verdana, sans-serif;
-font-size: 40px;
-color: #F7F9F9;
-font-weight: 700;
-line-height: 90px;
-padding: 10px 0;*/
 
 }
-#logo3{
-	margin: 1em 0 0.5em 0;
+.logo3 {
+	
+	/*margin: 1em 0 1em 0;*/
 	color: white;
 	font-weight: normal;
 	font-family: 'Ultra', sans-serif;   
-	font-size: 36px;
-	line-height: 42px;
+	font-size: 3px;
+	line-height: 66px;
 	text-transform: uppercase;
-	text-shadow: 0 2px red, 0 3px #777;
+	text-shadow: 0 2px white, 0 3px #777;
+	
 }
 #logo2{
 font-family: helvetica, arial, verdana, sans-serif;
 font-size: 14px;
-color: white;
+color: blue;
 font-weight: 200;
-line-height: 24px;
+line-height: 2px;
 padding: none;
 
 }
@@ -468,7 +462,7 @@ padding: none;
 /* lists on home page right panel*/
 .update-title {
 	color: #fff;
-	background-color: #FF9900;
+	background-color: blue;
 	padding: 5px;
 }
 #panel-right li a {
@@ -498,7 +492,7 @@ padding: none;
 /*************************
 *******Home Page******
 **************************/
-<<<<<<< HEAD
+
 /* lists on home page right panel*/
 
 .jobs-link a{
@@ -506,15 +500,7 @@ padding: none;
 	padding: 10px 0 !important;
 	margin: 5px 0 !important;
 	font-size: 14px;
-}
-
-/*#left-scroll{
-	margin: 0 15px 0 0;
-	background-color: white;
-	color: navy; 	
 }*/
-
-
 
 #main-slider {
   position: relative;
@@ -654,7 +640,7 @@ padding: none;
   top: -3px;
 }
 
-#main-slider .active .animation.animated-item-1 {
+#main-slider .active .animation.animated-item-1 
   -webkit-animation: fadeInUp 300ms linear 300ms both;
   -moz-animation: fadeInUp 300ms linear 300ms both;
   -o-animation: fadeInUp 300ms linear 300ms both;
@@ -2121,12 +2107,23 @@ ul.sidebar-gallery {
 /***********************
 ********* Footer ******
 ************************/
+.top-bar3 {
+  padding: 10px 10px;
+  background: #4484C4;
+  border-bottom: 1px solid #222;
+  line-height: 34px;
+ 
+}
+.top-bar3 li {
+	font-size: 11px;
+	padding-right: 2px;
+}
 .top-bar2 {
   padding: 8px 8px;
-  background: #FF9900;
+  background: #151515;
   border-bottom: 1px solid #222;
   line-height: 28px;
-  color: black;
+  color: gray;
 }
 #container{
 	width:100%;
@@ -2145,15 +2142,22 @@ ul.sidebar-gallery {
     padding-bottom: 55px;
     padding-left: 73px;
     padding-top: 25px;
+    width: 600px;
 }
 
 .indanlink img {
     margin-right: 73px;
     padding-top: 17px;
 }
+.visitor p{
+	/*margin-top: 1px;*/
+	
+	margin-top: 55px;
+}
 .count img {
-    margin-left: -12px;
-    margin-top: 43px;
+    /*margin-left: -12px;*/
+    margin-top: 49px;
+    
                                          
 }
 .gover,.cm,.mco,.cs,.scop,.rcops{
