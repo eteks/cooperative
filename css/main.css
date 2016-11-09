@@ -47,7 +47,7 @@ h4{
 }
 
 a {
-  color: #c52d2f;
+  color: #fff;
   font-family:"Arial,Helvetica,sans-serif";
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
@@ -101,13 +101,13 @@ a:focus {
 
 .dropdown-menu {
   margin-top: -1px;
-  min-width: 240px;
+  min-width: 350px;
 }
 
 .center h2{
-  font-size: 34px;
-  margin-top: 60px;
-  margin-bottom: 0;color: blue;
+  font-size: 30px;
+  margin-top: -17;
+  margin-bottom: -30px;	
 }
 
 .media>.pull-left{
@@ -245,7 +245,7 @@ ul.social-share li a:hover {
 }
 
 .search i {
-  color: #c52d2f;
+  color: #fff;
 }
 
 input.search-form{
@@ -253,7 +253,7 @@ input.search-form{
   border: 0 none;
   width: 60px;
   padding: 0 10px;
-  color: blue;
+  color: #fff;
   -webkit-transition: all 400ms;
   -moz-transition: all 400ms;
   -ms-transition: all 400ms;
@@ -279,26 +279,24 @@ input.search-form:hover {
 }
 
 .navbar {
-  
+  border-radius: 0;
   margin-bottom: 0;
-  background: #4484CE;  
+  background: #4484CE;
+  padding: 15px 0;
   padding-bottom: 0;
- 
 }
 
  .navbar-nav{
   margin-top: 10px;
-  
  }
 
 .navbar-nav>li{
   margin-left: 10px;
   padding-bottom: 10px;
-  margin-right: 3px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 5px 12px;
+  padding: 3px 12px;
   margin: 0;
   border-radius: 3px;
   color: #fff;
@@ -387,10 +385,11 @@ input.search-form:hover {
 /*******Header Menus******/
 
 
-.breadcrumb {background: white; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block; margin-right:40px;}
-.breadcrumb li {font-size: 11px;font-weight: 800;}
+.breadcrumb {background: #4484C4; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block; margin-right:50px;}
+.breadcrumb li {font-size: 12px;font-weight: 800;}
 
-.breadcrumb a {color:blue;}
+
+.breadcrumb a {color: rgba(235, 240, 245, 1);}
 .breadcrumb a:hover {color: rgba(204, 33, 39, 1);}
 .breadcrumb>.active {color: rgba(204, 18, 18, 1);}
 .breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
@@ -403,52 +402,57 @@ input.search-form:hover {
 
 /*******End of Header Menus******/
 /*******Logo******/
-
+.logo{
+	padding: 3px 0;
+  background: #D9D9D9;
+  border-bottom: 1px solid #222;
+  /*line-height: 20px;*/
+}
 .logo{
 	/*margin: 1em 0 0.5em 0;*/
 	color: blue;
 	font-weight: normal;
 	font-family: 'Ultra', sans-serif;   
 	font-size: 39px;
-	line-height: 60px;
+	line-height: 66px;
 	/*text-transform: uppercase;*/
 	text-shadow: 0 2px white, 0 3px #777;
-	margin-top: 14px;
-	padding: 3px 0;
-  background: #D9D9D9;
-  border-bottom: 1px solid #222;
 }
 /*.top-logo{
 	padding: 8px 0;
   background: #191919;
 }*/
-#logo1 img {
+#logo1>img {
 	width:50px;
 	height: 70px;
 	float: center;
-	/*margin-top: 2px;*/
-	padding: -4px;
+	margin-top: 4px;
 }
+/*#logo3{
+font-family: helvetica, arial, verdana, sans-serif;
+font-size: 40px;
+color: #F7F9F9;
+font-weight: 700;
+line-height: 90px;
+padding: 10px 0;*/
 
 }
-.logo3 {
-	
-	/*margin: 1em 0 1em 0;*/
+#logo3{
+	margin: 1em 0 0.5em 0;
 	color: white;
 	font-weight: normal;
 	font-family: 'Ultra', sans-serif;   
-	font-size: 3px;
-	line-height: 66px;
+	font-size: 36px;
+	line-height: 42px;
 	text-transform: uppercase;
 	text-shadow: 0 2px white, 0 3px #777;
-	
 }
 #logo2{
 font-family: helvetica, arial, verdana, sans-serif;
 font-size: 14px;
 color: blue;
 font-weight: 200;
-line-height: 2px;
+line-height: 24px;
 padding: none;
 
 }
@@ -460,30 +464,43 @@ padding: none;
 *******Home Page******
 **************************/
 /* lists on home page right panel*/
+.left-update
+{
+	margin-top: 3px;
+}
+
+.three li{
+	float: center;
+}
 .update-title {
 	color: #fff;
-	background-color: blue;
+	background-color: #4484CE;
 	padding: 5px;
 }
+#panel-right
+{
+	margin:2px;
+}
+
 #panel-right li a {
-	color: #c52d2f;
+	color: black;
 }
 #panel-right li a:hover {
 	color: #196F3D;
 	}
 .list-update {
-	text-align: left;
-    line-height: 1.5;
+	text-align: center;
+    line-height: 2.5;
 }
 
 .jobs-link {
 	padding: 0 5px !important;
 }
-.jobs-link a{
-	/*list-styel-type: none;*/
+.jobs-link a {
+	list-style-type: none;
 	padding: 10px 0 !important;
 	margin: 5px 0 !important;
-	font-size: 14px;
+	font-size: 16px;
 	
 }
 /*******End of logo******/
@@ -500,8 +517,19 @@ padding: none;
 	padding: 10px 0 !important;
 	margin: 5px 0 !important;
 	font-size: 14px;
-}*/
+=======
 
+/*#left-scroll{
+	margin: 0 15px 0 0;
+	background-color: #c52d2f;
+	color: #F7F9F9; */
+>>>>>>> 89eff103cb3b7b0398da98d8a25ff20ba432d2ec
+	
+	
+<<<<<<< HEAD
+}*/
+=======
+}
 #main-slider {
   position: relative;
 }
@@ -640,7 +668,7 @@ padding: none;
   top: -3px;
 }
 
-#main-slider .active .animation.animated-item-1 
+#main-slider .active .animation.animated-item-1 {
   -webkit-animation: fadeInUp 300ms linear 300ms both;
   -moz-animation: fadeInUp 300ms linear 300ms both;
   -o-animation: fadeInUp 300ms linear 300ms both;
@@ -2107,17 +2135,6 @@ ul.sidebar-gallery {
 /***********************
 ********* Footer ******
 ************************/
-.top-bar3 {
-  padding: 10px 10px;
-  background: #4484C4;
-  border-bottom: 1px solid #222;
-  line-height: 34px;
- 
-}
-.top-bar3 li {
-	font-size: 11px;
-	padding-right: 2px;
-}
 .top-bar2 {
   padding: 8px 8px;
   background: #151515;
@@ -2142,22 +2159,15 @@ ul.sidebar-gallery {
     padding-bottom: 55px;
     padding-left: 73px;
     padding-top: 25px;
-    width: 600px;
 }
 
 .indanlink img {
     margin-right: 73px;
     padding-top: 17px;
 }
-.visitor p{
-	/*margin-top: 1px;*/
-	
-	margin-top: 55px;
-}
 .count img {
-    /*margin-left: -12px;*/
-    margin-top: 49px;
-    
+    margin-left: -12px;
+    margin-top: 43px;
                                          
 }
 .gover,.cm,.mco,.cs,.scop,.rcops{
@@ -2165,6 +2175,9 @@ ul.sidebar-gallery {
 }
 
 
-
+/******* bottom marquee font color*******/
+.recr a {
+    color: black;
+}
 
 
