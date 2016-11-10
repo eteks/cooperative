@@ -27,7 +27,8 @@ h6 {
 
 h1{
   font-size: 36px;
-  color:#fff;
+  color: #0000ff;
+  text-shadow: 0 2px white, 0 3px #777;
 }
 
 h2{
@@ -47,7 +48,7 @@ h4{
 }
 
 a {
-  color: #fff;
+  /*color: #fff;*/
   font-family:"Arial,Helvetica,sans-serif";
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
@@ -188,7 +189,7 @@ body > section {
 
 .top-bar {
   padding: 8px 8px;
-  background: #4484C4;
+  background: #4484ce;
   border-bottom: 1px solid #222;
   line-height: 28px;
 }
@@ -296,7 +297,8 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  padding: 3px 12px;
+  /*padding: 3px 12px;*/
+  padding: 5px;
   margin: 0;
   border-radius: 3px;
   color: #fff;
@@ -305,7 +307,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
+  background-color: #c52d2f;
   color: #fff;
 }
 
@@ -385,12 +387,20 @@ input.search-form:hover {
 /*******Header Menus******/
 
 
-.breadcrumb {background: #4484C4; border: 0px solid rgba(10, 10, 10, 1); border-radius: 0px; display: block; margin-right:50px;}
+.breadcrumb {
+	background: #4484ce; 
+	border: 0px solid rgba(10, 10, 10, 1); 
+	border-radius: 0px; 
+	display: block; 
+	/*margin-right:50px;*/
+}
 .breadcrumb li {font-size: 12px;font-weight: 800;}
 
 
 .breadcrumb a {color: rgba(235, 240, 245, 1);}
-.breadcrumb a:hover {color: rgba(204, 33, 39, 1);}
+.breadcrumb a:hover {
+	color: #000;
+	}
 .breadcrumb>.active {color: rgba(204, 18, 18, 1);}
 .breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
 
@@ -406,17 +416,18 @@ input.search-form:hover {
 	padding: 3px 0;
   background: #D9D9D9;
   border-bottom: 1px solid #222;
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;   
   /*line-height: 20px;*/
 }
 .logo{
 	/*margin: 1em 0 0.5em 0;*/
-	color: blue;
-	font-weight: normal;
-	font-family: 'Ultra', sans-serif;   
-	font-size: 39px;
-	line-height: 66px;
+	/*color: #0000ff;*/
+	
+	/*font-size: 39px;*/
+	/*line-height: 66px;*/
 	/*text-transform: uppercase;*/
-	text-shadow: 0 2px white, 0 3px #777;
+	
 }
 /*.top-logo{
 	padding: 8px 0;
@@ -437,24 +448,23 @@ line-height: 90px;
 padding: 10px 0;*/
 
 }
-#logo3{
+.logo3 {
+    text-shadow: 0 2px white, 0 3px #777;
 	margin: 1em 0 0.5em 0;
-	color: white;
-	font-weight: normal;
-	font-family: 'Ultra', sans-serif;   
-	font-size: 36px;
-	line-height: 42px;
-	text-transform: uppercase;
-	text-shadow: 0 2px white, 0 3px #777;
+	font-family: 'Ultra', sans-serif; 
+	/*color: #4484ce;*/
+	/*font-weight: normal;*/
+	/*text-transform: uppercase;*/
 }
 #logo2{
-font-family: helvetica, arial, verdana, sans-serif;
-font-size: 14px;
-color: blue;
-font-weight: 200;
-line-height: 24px;
-padding: none;
-
+	text-shadow: 0 2px white, 0 3px #777;
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-size: 14px;
+	color: blue;
+	font-weight: 200;
+	padding: none;
+	margin-top: 20px;
+	/*line-height: 24px;*/
 }
 
 /*******End of logo******/
@@ -487,12 +497,12 @@ padding: none;
 }
 #panel-right li a:hover {
 	color: #196F3D;
-	}
+}	
 .list-update {
-	text-align: center;
-    line-height: 2.5;
+	text-align: justify;
+    list-style-type: none;
+    margin: 15px;
 }
-
 .jobs-link {
 	padding: 0 5px !important;
 }
@@ -501,7 +511,6 @@ padding: none;
 	padding: 10px 0 !important;
 	margin: 5px 0 !important;
 	font-size: 16px;
-	
 }
 /*******End of logo******/
 
@@ -2125,54 +2134,49 @@ ul.sidebar-gallery {
   display: inline-block;
 }
 
-
-
-
-
-
-
-
 /***********************
 ********* Footer ******
 ************************/
 .top-bar2 {
-  padding: 8px 8px;
-  background: #151515;
-  border-bottom: 1px solid #222;
-  line-height: 28px;
   color: gray;
+  background-color: #151515;
+  border-bottom: 1px solid #222;
+  /*line-height: 28px;*/
+  /*padding: 8px 8px;*/
+  
 }
-#container{
+/*#container{
 	width:100%;
 	height:200%;
-}
+}*/
 #address {
 	font-family:Arial, Helvetica, sans-serif;
     float: left;
-    padding-bottom: 30px;
-    padding-left: 81px;
+    /*padding-bottom: 30px;*/
+    /*padding-left: 81px;*/
     padding-top: 25px;
 }
 
 #footer {
 	font-family:Arial, Helvetica, sans-serif;
-    padding-bottom: 55px;
-    padding-left: 73px;
     padding-top: 25px;
+    text-align: right;
 }
 
-.indanlink img {
-    margin-right: 73px;
-    padding-top: 17px;
+.indanlink {
+   margin-top: 30px; 
+    
 }
 .count img {
     margin-left: -12px;
     margin-top: 43px;
-                                         
 }
 .gover,.cm,.mco,.cs,.scop,.rcops{
 	color:white;
 }
+.visitor {
+	 margin: 5px 20px;
+}	
 
 
 /******* bottom marquee font color*******/
