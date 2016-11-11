@@ -24,6 +24,12 @@ h6 {
   font-family: 'Open Sans', sans-serif;
   color:#4e4e4e;
 }
+h5{
+font-weight: 600; 
+  font-family: 'Open Sans', sans-serif;
+  color:#d43133;
+  font-size: 18px;
+}
 
 h1{
   font-size: 36px;
@@ -2186,9 +2192,18 @@ ul.sidebar-gallery {
 }
 
 /******Publication.html*********/
+/*table{
+	border-collapse: collapse;
+	border:0;
+}*/
+
 .major1{
 	margin: 20px;
 }
+.major1 table{
+	width: 100%;
+	margin: 0 5px;
+}	
 .publish{
 	border: 1px solid blue;
 	margin-left: 9.9pt;
@@ -2197,44 +2212,62 @@ ul.sidebar-gallery {
 	width:775px;
 }
 #apDiv13 table tr{
-	
+	width: 800px;
 	height:32.7pt;
 	border: 1px solid blue;
-	font-size: 12px;
+	font-size: 14px;
+	padding: 5px;
+	text-align:center;
+	color:red;
+ }
+ #apDiv13 table th{
 	
+	height:32.7pt;
+	/*border: 1px solid blue;*/
+	border-bottom-left-radius:none;
+	border-bottom-right-radius:none;
+	font-size: 15px;
+	
+	text-align:center;
+	color:blue;
  }
  
  #apDiv13 table td a{
- 	width: 618px;
+ 	
  	font-family: 'Arial', 'sans-serif';
  	color:red;
  	margin-left: 5px;
 
  }
  #apDiv13 table td a:hover{
- 	width: 618px;
+ 	
  	font-family: 'Arial', 'sans-serif';
  	color:black;
 
+ }
+ #appdiv13 table td{
+ 	
+ 	padding: 4px;
+ 	color: blue;
  }
  
 .MsoNormal {
 	text-align: center;
 	margin-bottom:.7pt;
 	font-family: 'Arial', 'sans-serif';
-	color: #860000;
-	font-size:13px;
+	color: blue;
+	font-size:14px;
+	width:400px;
 	
 }
 
 /******Revision and NMD Petitions.html*********/
 
 #revision table td{
-	text-align: center;
-	
-	margin-bottom:.7pt;
+	text-align: left;	
+	padding: 5px;
 	font-family: 'Arial', 'sans-serif';
-	color: #860000;
+	color: red;
 	border-right: 1px solid blue;
 }
 /******Faq.html*********/
@@ -2242,17 +2275,15 @@ ul.sidebar-gallery {
 	padding:4px;
 }
 .faq p a{
-	text-align: left;
+	text-align: center;
 	font-size: 14px;
 	margin-bottom:.7pt;
 	font-family: 'Arial', 'sans-serif';
 	color: #860000;
 	
 }
-.faq p a:hover{
- 	
+.faq p a:hover{	
  	color:black;
-
  }
  .faq-head h4{
 	font-size: 16px;
@@ -2275,9 +2306,36 @@ ul.sidebar-gallery {
 
 #faq1 table td p{
 	border: 1px;
+ 	width: 700px;
+ 	font-family: 'Arial', 'sans-serif';
+ 	color:blue;
+ 	margin-left: 5px;
+ }	
+ 
+ #faq1 table td p a{
+	border: 1px;
  	width: 500px;
  	font-family: 'Arial', 'sans-serif';
  	color:blue;
  	margin-left: 5px;
-
  }	
+ 
+ #faq1 p a{
+	text-align: left;
+	font-size: 14px;
+	margin-bottom:.7pt;
+	font-family: 'Arial', 'sans-serif';
+	color: #860000;
+	
+}
+
+#faq1 p a:hover{
+ 	
+ 	color:black;
+
+ }
+ /*******Compendium Of circular********/
+.pdf{
+	weight:20px;
+	height:20px;
+}
