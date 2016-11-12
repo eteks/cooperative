@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
+
 h6 {
   font-weight: 600; 
   font-family: 'Open Sans', sans-serif;
@@ -27,8 +27,9 @@ h6 {
 h5{
 font-weight: 600; 
   font-family: 'Open Sans', sans-serif;
-  color:#d43133;
+  color:red;
   font-size: 18px;
+  text-align:center;
 }
 
 h1{
@@ -2231,11 +2232,28 @@ ul.sidebar-gallery {
 	text-align:center;
 	color:blue;
  }
+ #apDiv13 table th p{
+	
+	height:32.7pt;
+	/*border: 1px solid blue;*/
+	border-bottom-left-radius:none;
+	border-bottom-right-radius:none;
+	font-size: 15px;
+	
+	text-align:center;
+	color:blue;
+ }
  
  #apDiv13 table td a{
  	
  	font-family: 'Arial', 'sans-serif';
- 	color:red;
+ 	color:#d43133;
+ 	margin-left: 5px;
+
+ }
+ #side-head{
+ 	font-family: 'Arial', 'sans-serif';
+ 	color: green !important;
  	margin-left: 5px;
 
  }
@@ -2264,10 +2282,10 @@ ul.sidebar-gallery {
 /******Revision and NMD Petitions.html*********/
 
 #revision table td{
-	text-align: left;	
+	text-align: center;	
 	padding: 5px;
 	font-family: 'Arial', 'sans-serif';
-	color: red;
+	color: blue;
 	border-right: 1px solid blue;
 }
 /******Faq.html*********/
