@@ -39,8 +39,11 @@ h1{
 }
 
 h2{
-  color: black;
+  color: #007033;
   font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  text-align:center;
+  font-weight:600;
 }
 
 h3{
@@ -69,7 +72,8 @@ a:hover, a:focus {
 
 hr {
   border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #c52d2f;
+  width:500px;
 }
 
 
@@ -2160,8 +2164,7 @@ ul.sidebar-gallery {
 #address {
 	font-family:Arial, Helvetica, sans-serif;
     float: left;
-    /*padding-bottom: 30px;*/
-    /*padding-left: 81px;*/
+    
     padding-top: 25px;
 }
 
@@ -2251,7 +2254,7 @@ ul.sidebar-gallery {
  	margin-left: 5px;
 
  }
- #side-head{
+.side-head h5{
  	font-family: 'Arial', 'sans-serif';
  	color: green !important;
  	margin-left: 5px;
@@ -2269,6 +2272,15 @@ ul.sidebar-gallery {
  	color: blue;
  }
  
+ 
+ ul.list li {
+ 	text-align: left;
+	margin-bottom:.7pt;
+	font-family: 'Arial', 'sans-serif';
+	color: #d43133;
+	font-size:14px;
+}
+ 
 .MsoNormal {
 	text-align: center;
 	margin-bottom:.7pt;
@@ -2285,9 +2297,19 @@ ul.sidebar-gallery {
 	text-align: center;	
 	padding: 5px;
 	font-family: 'Arial', 'sans-serif';
-	color: blue;
+	color: #58267E;
 	border-right: 1px solid blue;
+	font-weight:bold;
 }
+.first-row table th {
+	text-align: center;	
+	padding: 5px;
+	font-family: 'Arial', 'sans-serif';
+	color: #007033;
+	border-right: 1px solid blue;
+	font-weight:bold;
+}
+
 /******Faq.html*********/
 .faq{
 	padding:4px;
@@ -2298,6 +2320,7 @@ ul.sidebar-gallery {
 	margin-bottom:.7pt;
 	font-family: 'Arial', 'sans-serif';
 	color: #860000;
+	font-weight:bold;
 	
 }
 .faq p a:hover{	
@@ -2309,7 +2332,7 @@ ul.sidebar-gallery {
 	text-align:center;
 }
 
-/******Faq1.html*********/
+/******* Faq1.html *********/
 
 #faq1 table tr{
 	
@@ -2343,17 +2366,68 @@ ul.sidebar-gallery {
 	font-size: 14px;
 	margin-bottom:.7pt;
 	font-family: 'Arial', 'sans-serif';
-	color: #860000;
-	
-}
+	color: #860000;	
+}	
 
 #faq1 p a:hover{
- 	
  	color:black;
-
  }
  /*******Compendium Of circular********/
 .pdf{
 	weight:20px;
 	height:20px;
 }
+/*******Projects and scheme page********/
+
+.scheme {
+	text-align: left;
+	margin-bottom:.7pt;
+	font-family: 'Arial', 'sans-serif';
+	color: #d43133;
+	font-size:14px;
+	
+	
+}
+/*******Contact-Us********/
+.contact
+{
+	color: #58267E;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 15px;
+  text-align:center;
+	
+}
+.contact1{
+	text-align: center;
+	margin-bottom:.7pt;
+	font-family: 'Arial', 'sans-serif';
+	color: blue;
+	font-size:14px;	
+
+}
+.ruler hr{
+	border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid red;
+ }
+  
+ /*******movement********/ 
+ .move{
+ 	color:#d43133;
+ 	font-size:15px;
+ 	font-weight: bold;
+ }
+ .move1{
+ 	color:blue;
+ 	font-size:14px;
+ 	
+ }
+  
+  /*******organisation********/  
+  .organ img{
+  	width:700px;
+  	height: 850px;
+  	padding: 10px; 
+  	
+  }
+  
+
