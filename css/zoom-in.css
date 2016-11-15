@@ -1,43 +1,40 @@
-.button {
-background-color: white;
-background-image: -webkit-linear-gradient(top, crimson, crimson);
-background-image: -moz-linear-gradient(top,crimson,crimson);
-display: inline-block;
-font-size: 10px;
-font-family: 'Meiryo UI';
-color: #fff;
-text-decoration: none !important;
-padding: 5px 5px;
-line-height: inherit;
-overflow: hidden;
-position: relative;
-border-radius: 2px;
-/*margin-top: 13px;
-margin-bottom: 10px*/;
-}
+
 	.button:hover {
 		opacity: 0.9;
 	}
 	
 	.incfont{
 	background-color:white;
-    background-image: -webkit-linear-gradient(top,white, white);
-    background-image: -moz-linear-gradient(top,white,white);
-	color:blue;
+    background-image: -webkit-linear-gradient(top,blue, blue);
+    background-image: -moz-linear-gradient(top,blue,blue);
+	color:white;
+	/*padding:2px 2px; */
+	/*height: 20px;
+    width: 20px;*/
+  
+    text-align: center;
+   
 	}
 	.decfont{
 	background-color:white;
-    background-image: -webkit-linear-gradient(top,white, white);
-    background-image: -moz-linear-gradient(top,white,white);
-	color:blue;
+    background-image: -webkit-linear-gradient(top,blue, blue);
+    background-image: -moz-linear-gradient(top,blue,blue);
+	color:white;
+	/*height: 20px;
+    width: 20px;  */
+    text-align: center;
 	}
-	/*#fontlinks{
-	margin-left:30%;
-	margin-right:30%;
-	margin-top:0px;
-	margin-bottom:5px;
-	text-align:center;
-	}*/
+	
+	.reset{
+	background-color:white;
+    background-image: -webkit-linear-gradient(top,blue, blue);
+    background-image: -moz-linear-gradient(top,blue,blue);
+	color:white;
+	/*height: 20px;
+    width: 20px;*/
+    text-align: center;
+		
+	}
 	.buttonfont{
 	color:dimgrey;
 	}

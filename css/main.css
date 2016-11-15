@@ -406,7 +406,7 @@ input.search-form:hover {
 	display: block; 
 	/*margin-right:50px;*/
 }
-.breadcrumb li {font-size: 12px;font-weight: 800;}
+.breadcrumb li {font-size: 12px;font-weight: 500;}
 
 
 .breadcrumb a {color: rgba(235, 240, 245, 1);}
@@ -2430,4 +2430,17 @@ ul.sidebar-gallery {
   	
   }
   
+#zoom{
+	font-size:14px;
+}
 
+
+/* COLOR CHANGER */
+#colorchanger { float:right;padding-top: 5px; }
+.colorbox { width:15px; height:15px; border:1px solid #050505; float:left; margin:2px; cursor:pointer; display:block; }
+.colorblue { background-color:#bfe1f1; }
+.colorblue:hover { background-color:#90bcd0; }
+.colororange { background-color:#F69C3A; }
+.colororange:hover { background-color:#FF5C01; }
+.colorgreen { background-color:#78A848; }
+.colorgreen:hover { background-color:#189048; }
