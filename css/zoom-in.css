@@ -4,35 +4,32 @@
 	}
 	
 	.incfont{
-	background-color:white;
-    background-image: -webkit-linear-gradient(top,blue, blue);
-    background-image: -moz-linear-gradient(top,blue,blue);
+	background-color:blue;
+    
 	color:white;
-	/*padding:2px 2px; */
-	/*height: 20px;
-    width: 20px;*/
+	font-weight: bold;
   
     text-align: center;
    
 	}
 	.decfont{
-	background-color:white;
-    background-image: -webkit-linear-gradient(top,blue, blue);
-    background-image: -moz-linear-gradient(top,blue,blue);
+	background-color:blue;
+    
 	color:white;
 	/*height: 20px;
     width: 20px;  */
     text-align: center;
+    font-weight: bold;
 	}
 	
 	.reset{
-	background-color:white;
-    background-image: -webkit-linear-gradient(top,blue, blue);
-    background-image: -moz-linear-gradient(top,blue,blue);
+	background-color: blue;
+    
 	color:white;
 	/*height: 20px;
     width: 20px;*/
     text-align: center;
+    font-weight: bold;
 		
 	}
 	.buttonfont{
