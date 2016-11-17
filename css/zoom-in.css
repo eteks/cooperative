@@ -1,4 +1,4 @@
-
+/*zoom-in*/
 	.button:hover {
 		opacity: 0.9;
 	}
@@ -24,13 +24,8 @@
 	
 	.reset{
 	background-color: blue;
-    
 	color:white;
-	/*height: 20px;
-    width: 20px;*/
-    text-align: center;
-    font-weight: bold;
-		
+    font-weight: bold;	
 	}
 	.buttonfont{
 	color:dimgrey;

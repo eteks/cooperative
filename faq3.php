@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>CO-OPERATIVE DEPARTMENT</title>
+	
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    
+    
+    
+</head><!--/head-->
+
+<body class="homepage">
+
+    <header id="header">
+    <!--/header-->
+	<?php include('include/header.php'); ?>	
+    <!--/header-->
+ 
+ <div class= "container">
+ 	<div class= "major1">
+ 		<div id="apDiv13">
+ 			<div id="revision" class="first-row">
+ <table >
+    <tr >
+      <th><strong>What are the legal frameworks in organization of a co-operative society?</strong></th>
+    </tr>
+    <tr>
+      <td>
+        <p>A co-operative law consists of two parts, viz., the Co-operative Societies Act and the Co-operative Societies Rules.  The Act is enacted by the legislature, whereas Rules are framed by the Government, subject to the provisions of the Act.  In Puducherry, it is the Puducherry Co-operative Societies Act, 1972 (No. 7 of 1973) and the Puducherry Co-operative Societies Rules, 1973.  
+        </td>
+     </tr>
+     <tr>
+     	<td>
+        <p> The bye-laws represent the constitution of a society.  Each society has its own bye-laws and various subsidiary regulations governing the working of the society, depending on the type of the society. </span></strong></p>
+		</td>
+	</tr>
+    </table>  
+
+  
+</div>
+</div> 
+ </div>
+ </div>
+ 
+<!--/#footer-->
+		<?php include('include/footer.php'); ?> 
+<!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery-3.1.0.slim.min.js"></script>    
+	<script src="js/custom.js"></script>
+    <script type="text/javascript"></script>
+    
+   
+</body>
+</html>

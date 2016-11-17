@@ -38,7 +38,7 @@ function decreaseFont(){
 
 // Theme color change
 
-// Blue Color Theme
+// Green Color Theme
 $('.colorgreen').click(function(){
 	  	$('.top-bar').css({"background-color":"#3A9952"});
 	   	$('.breadcrumb').css({"background-color":"#3A9952"});
@@ -68,12 +68,12 @@ $('.colororange').click(function(){
 	    $('.reset').css({"background-image":"white"});
 });
 
-
+// Blue Color Theme
 $('.colorblue').click(function(){
 	  	$('.top-bar').css({"background-color":"#4484CE"});
 	   	$('.breadcrumb').css({"background-color":"#4484CE"});
-	   	$('#logo2').css({"color":"#4484CE"});
-	   	$('h1').css({"color":"#4484CE"});
+	   	$('#logo2').css({"color":"#0000ff"});
+	   	$('h1').css({"color":"#0000ff"});
 	   	$('.update-title').css({"background-color":"#4484CE"});
 	    $('.incfont').css({"background-color":"blue"});
 	    $('.incfont').css({"background-image":"white"});

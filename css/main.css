@@ -206,12 +206,7 @@ body > section {
   line-height: 28px;
 }
 
-/*.sample {
-  padding: 10px 0;
-  background: ;
-  border-bottom: 1px solid #222;
-  line-height: 28px;
-}*/
+
 .space {
   padding: 30px 0;
   background: #fff;
@@ -225,8 +220,6 @@ body > section {
 .top-number p{
   margin: 0
 }
-
-
 
 .search i {
   color: #fff;
@@ -367,6 +360,8 @@ input.search-form:hover {
   border-top: 0;
   padding-bottom: 0;
 }
+
+
 /*******Header Menus******/
 
 
@@ -387,13 +382,54 @@ input.search-form:hover {
 .breadcrumb>.active {color: rgba(204, 18, 18, 1);}
 .breadcrumb>li+li:before {color: rgba(204, 204, 204, 1); content: "\002F\00a0";}
 
-/*.sec>li {
-	font-size: 15px;
-	background: #191919;
-	color: red;
-}*/
+
+
+
+/* COLOR CHANGER FUNCTION*/
+#colorchanger { float:right;padding-top: 5px; }
+.colorbox { width:15px; height:15px; border:1px solid #050505; float:left; margin:2px; cursor:pointer; display:block; }
+.colorblue { background-color:#bfe1f1; }
+.colorblue:hover { background-color:#90bcd0; }
+.colororange { background-color:#F69C3A; }
+.colororange:hover { background-color:#FF5C01; }
+.colorgreen { background-color:#78A848; }
+.colorgreen:hover { background-color:#189048; }
+
+
+/*zoom-in*/
+	.button:hover {
+		opacity: 0.9;
+	}
+	
+	.incfont{
+	background-color:blue;   
+	color:white;
+	font-weight: bold;  
+    text-align: center;  
+	}
+	.decfont{
+	background-color:blue;
+    
+	color:white;
+	/*height: 20px;
+    width: 20px;  */
+    text-align: center;
+    font-weight: bold;
+	}
+	
+	.reset{
+	background-color: blue;
+	color:white;
+    font-weight: bold;	
+	}
+	.buttonfont{
+	color:dimgrey;
+	}
+
+
 
 /*******End of Header Menus******/
+
 /*******Logo******/
 .logo{
 	padding: 3px 0;
@@ -489,10 +525,6 @@ input.search-form:hover {
 }
 /*******End of logo******/
 
-
-/*************************
-*******Home Page******
-**************************/
 
 /* lists on home page right panel*/
 
@@ -1080,13 +1112,11 @@ input.search-form:hover {
 	font-family: 'Arial', 'sans-serif';
 	color: blue;
 	font-size:14px;	
-
 }
 .ruler hr{
 	border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid red;
- }
-  
+ }  
  /*******movement********/ 
  .move{
  	color:#d43133;
@@ -1095,29 +1125,15 @@ input.search-form:hover {
  }
  .move1{
  	color:blue;
- 	font-size:14px;
- 	
+ 	font-size:14px; 	
  }
-  
   /*******organisation********/  
   .organ img{
   	width:700px;
   	height: 850px;
-  	padding: 10px; 
-  	
-  }
-  
+  	padding: 10px;   	
+  }  
 #zoom{
 	font-size:14px;
 }
 
-
-/* COLOR CHANGER FUNCTION*/
-#colorchanger { float:right;padding-top: 5px; }
-.colorbox { width:15px; height:15px; border:1px solid #050505; float:left; margin:2px; cursor:pointer; display:block; }
-.colorblue { background-color:#bfe1f1; }
-.colorblue:hover { background-color:#90bcd0; }
-.colororange { background-color:#F69C3A; }
-.colororange:hover { background-color:#FF5C01; }
-.colorgreen { background-color:#78A848; }
-.colorgreen:hover { background-color:#189048; }
