@@ -50,77 +50,77 @@
      	<td>
         	<p>Audit Section</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/audit.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/audit.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>2</td>
      	<td>
         	<p>Consumer Section</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/consumer.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/consumer.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>3</td>
      	<td>
         	<p>Credit Section</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/credit.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/credit.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>4</td>
      	<td>
         	<p>Dairy Section</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/dairy.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/dairy.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>5</td>
      	<td>
         	<p>Employees</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/employees.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/employees.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>6</td>
      	<td>
         	<p>General</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/general.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/general.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>7</td>
      	<td>
         	<p>Handloom Section</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/handlooms.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/handlooms.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>8</td>
      	<td>
         	<p>Housing Section</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/housing.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/housing.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>9</td>
      	<td>
         	<p>Law Section</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/law.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/law.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>10</td>
      	<td>
         	<p>Right to Information Act</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/RTI.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/rti.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
 	<tr>
     	<td>11</td>
      	<td>
         	<p>Salary Earners</p>  
      	</td>
-      	<td><a href="Pdf/COMP-CIR/salary.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
+      	<td><a href="Pdf/comp-cir/salary.pdf" target="new"><img class="pdf" src="images/comp_cir_clip_image002_0001.jpg"></a></td>
 	</tr>
     </table>  
 </center>  

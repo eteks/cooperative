@@ -41,11 +41,11 @@
 				<h5>RIGHT TO INFORMATION ACT</h5>
 				<table>
 					<tr>
-					      <td><strong><a href="Pdf/RTI/RTI FORM/F1.pdf" TARGET="NEW">Form -1 : Form of application for seeking information under the Right to Information Act, 2005</a></strong></td>
-					     	<td></td>
+					      <td><strong><a href="Pdf/rti/rti_form/F1.pdf" TARGET="NEW">Form -1 : Form of application for seeking information under the Right to Information Act, 2005</a></strong></td>
+					     	
 					</tr>
 					<tr>
-					      <td><strong><a href="Pdf/RTI/RTI FORM/F4.pdf" TARGET="NEW">Form - 4 : </a><a href="hba.pdf" TARGET="NEW">First Appeal under Section 19 of the Right to Information Act, 2005</a></strong></td>
+					      <td><strong><a href="Pdf/rti/rti_form/F4.pdf" TARGET="NEW">Form - 4 : </a><a href="hba.pdf" TARGET="NEW">First Appeal under Section 19 of the Right to Information Act, 2005</a></strong></td>
 					      
 					</tr>
 					

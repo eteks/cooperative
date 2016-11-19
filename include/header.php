@@ -6,25 +6,25 @@
              		 <div class="col-sm-12 col-xs-12 col-md-12">
                     	 <ul class="breadcrumb pull-right" id="contents">
 						    <li>
-						    	<a href="SCHEMES.php">Projects &amp; Schemes</a>
+						    	<a href="schemes.php">Projects &amp; Schemes</a>
 						    </li>
 						    <li class="dropdown">
                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Co-operative Acts &amp; Rule <i class="fa fa-angle-down"></i></a>
                             	<ul class="dropdown-menu co-op">
-                            	<li><a href="Pdf/Cooperative act&rule/Act1972.pdf" title="PCS ACT, 1972" target="new">Puducherry Co-operative Societies Act, 1972</a></li>
-        						<li><a href="Pdf/Cooperative act&rule/Rules1973.pdf" title="PSC RULES, 1973" target="new">Puducherry Co-operative Societies Rules, 1973</a></li>  
+                            	<li><a href="Pdf/Cooperative_act&rule/Act1972.pdf" title="PCS ACT, 1972" target="new">Puducherry Co-operative Societies Act, 1972</a></li>
+        						<li><a href="Pdf/Cooperative_act&rule/Rules1973.pdf" title="PSC RULES, 1973" target="new">Puducherry Co-operative Societies Rules, 1973</a></li>  
                             	</ul>
                            </li>
                         	<li class="dropdown">
-                            	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Right To Information <i class="fa fa-angle-down"></i></a>
+                            	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Rights To Information<i class="fa fa-angle-down"></i></a>
                             	<ul class="dropdown-menu co-op">
-	                                <li><a href="Pdf/Right to information/INTRODUCTION.pdf" title="INTRODUCTION" target="new">RTI Introduction</a></li>
-							        <li><a href="Pdf/Right to information/rti_rules_2012.pdf" title="RTI RULES 2012" target="new">RTI Rules 2012</a></li>
-							        <li><a href="MANUAL.php" title="RTI MANUALS">RTI Manuals</a></li>
-							        <li><a href="RTIQTR FORM.php" title="RTI QUARTERLY FORM">RTI Quarterly reports</a></li>
-							        <li><a href="RTIFAPPL.php" title="RTI FIRST APPELLATE">Proceedings of First Appellate Authority</a></li>
-							        <li><a href="RTICIRCULAR.php" title="RTI CIRCULARS">RTI CIRCULARS</a></li>        
-							        <li><a href="RTI Form.php" title="RTI FORM">RTI Forms</a></li>
+	                                <li><a href="Pdf/rti_to_information/introduction.pdf" title="INTRODUCTION" target="new">RTI Introduction</a></li>
+							        <li><a href="Pdf/rti_to_information/rti_rules_2012.pdf" title="RTI RULES 2012" target="new">RTI Rules 2012</a></li>
+							        <li><a href="manual.php" title="RTI MANUALS">RTI Manuals</a></li>
+							        <li><a href="rtiqtr_form.php" title="RTI QUARTERLY FORM">RTI Quarterly reports</a></li>
+							        <li><a href="rtifappl.php" title="RTI FIRST APPELLATE">Proceedings of First Appellate Authority</a></li>
+							        <li><a href="rticircular.php" title="RTI CIRCULARS">RTI CIRCULARS</a></li>        
+							        <li><a href="rti_form.php" title="RTI FORM">RTI Forms</a></li>
 							        <li><a href="rticontact.php" title="RTI CONTACT">Officials under RTI</a></li>
                             	</ul>
                         	</li>
@@ -107,43 +107,50 @@
                      	 <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Movement &amp; Administrative Setup <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                            <li><a href="ADM.php" title="CO-OPERATIVE MOVEMENT">Co-operative Movement</a></li>
-					        <li><a href="ADMSTA.php" title="ADMINISTRATIVE SETUP">Administrative Setup</a></li>
-					        <li><a href="ORGCHA.php" title="ORGANISATION CHART">Organisation chart</a></li>
-					        <li><a href="RCS_NAME.php" title="DEPARTMENT OFFICERS">Department Officers and Staff Strength</a></li>
+                            <li><a href="adm.php" title="CO-OPERATIVE MOVEMENT">Co-operative Movement</a></li>
+					        <li><a href="admsta.php" title="ADMINISTRATIVE SETUP">Administrative Setup</a></li>
+					        <li><a href="orgcha.php" title="ORGANISATION CHART">Organisation chart</a></li>
+					        <li><a href="rcs_name.php" title="DEPARTMENT OFFICERS">Department Officers and Staff Strength</a></li>
                             </ul>
                         </li>
                         
-                        <li><a href="MAJCO.php" title="MAJOR CO-OP. SOCIETIES">Major Co-operative Societies</a></li> 
+                        <li><a href="majco.php" title="MAJOR CO-OP. SOCIETIES">Major Co-operative Societies</a></li> 
                         
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">List of Co-operative Societies <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="Pdf/list of cooperative societies/ListHandloom.pdf" title="HANDLOOMS" target="new">Handlooms</a></li>
-						        <li><a href="Pdf/list of cooperative societies/ListConsumers.pdf" title="CONSUMERS" target="new">Consumers</a></li>
-						        <li><a href="Pdf/list of cooperative societies/Listplanning.pdf" title="PLANNING" target="new">Employees Credit Societies</a></li>
-						        <li><a href="Pdf/list of cooperative societies/Listdairy.pdf" title="LIST OF DAIRY" target="new">Dairy</a></li>
-						        <li><a href="Pdf/list of cooperative societies/ListHouse.pdf" title="HOUSING" target="new">Housing</a></li>
-						        <li><a href="Pdf/list of cooperative societies/Listcredit.pdf" title="CREDIT" target="new">Credit</a></li>
-						        <li><a href="Pdf/list of cooperative societies/ListMiscl.pdf" title="MISCELLANEOUS SOCIETY" target="new">Miscellaneous</a></li>
+                                <li><a href="Pdf/list_of_cooperative_societies/ListHandloom.pdf" title="HANDLOOMS" target="new">Handlooms</a></li>
+						        <li><a href="Pdf/list_of_cooperative_societies/ListConsumers.pdf" title="CONSUMERS" target="new">Consumers</a></li>
+						        <li><a href="Pdf/list_of_cooperative_societies/Listplanning.pdf" title="PLANNING" target="new">Employees Credit Societies</a></li>
+						        <li><a href="Pdf/list_of_cooperative_societies/Listdairy.pdf" title="LIST OF DAIRY" target="new">Dairy</a></li>
+						        <li><a href="Pdf/list_of_cooperative _ocieties/ListHouse.pdf" title="HOUSING" target="new">Housing</a></li>
+						        <li><a href="Pdf/list_of_cooperative_societies/Listcredit.pdf" title="CREDIT" target="new">Credit</a></li>
+						        <li><a href="Pdf/list_of_cooperative_societies/ListMiscl.pdf" title="MISCELLANEOUS SOCIETY" target="new">Miscellaneous</a></li>
                             </ul>
                         </li>
                         <li><a href="publication.php" title="PUBLICATION">Publications</a></li> 
-                        <li><a href="NOT_CIR.php" title="NOTICIFCATION AND CIRCULAR">Notification / Circulars</a></li> 
-                        <li><a href="RPETN.php" title="REVISION / NMD PETITIONS">Revision / NMD Petitions</a></li>
+                        <li><a href="not_cir.php" title="NOTICIFCATION AND CIRCULAR">Notification / Circulars</a></li> 
+                        <li><a href="rpetn.php" title="REVISION / NMD PETITIONS">Revision / NMD Petitions</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recruitment Rules <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="Pdf/Recruitment Rules/JRCS_RR.pdf" title="RECRUITMENT RULES" target="new">Joint Registrar of Cooperative Societies</a></li>
-						        <li><a href="Pdf/Recruitment Rules/DDO_RR.pdf" title="RECRUITMENT RULES" target="new">Dairy Development Officer</a></li>
-						        <li><a href="Pdf/Recruitment Rules/DRCS_RR.pdf" title="RECRUITMENT RULES" target="new">Deputy Registrar of Cooperative Societies</a></li>
-						        <li><a href="Pdf/Recruitment Rules/RR.pdf" title="Tech.Supervisor/Co-op. Officer/Sr.Inspector/Jr.Inspector(Pre-revised" target="new">1.T.S       2.C.O     3.S.I    4.J.I(pre-revised)</a></li>
-						        <li><a href="Pdf/Recruitment Rules/RR_JI_Revised.pdf" title="Jr.Inspector(Revised)" target="new">Jr.Inspector(Revised)</a></li>
+                                <li><a href="Pdf/Recruitment_Rules/JRCS_RR.pdf" title="RECRUITMENT RULES" target="new">Joint Registrar of Cooperative Societies</a></li>
+						        <li><a href="Pdf/Recruitment_Rules/DDO_RR.pdf" title="RECRUITMENT RULES" target="new">Dairy Development Officer</a></li>
+						        <li><a href="Pdf/Recruitment_Rules/DRCS_RR.pdf" title="RECRUITMENT RULES" target="new">Deputy Registrar of Cooperative Societies</a></li>
+						        <li><a href="Pdf/Recruitment_Rules/RR.pdf" title="Tech.Supervisor/Co-op. Officer/Sr.Inspector/Jr.Inspector(Pre-revised" target="new">1.T.S       2.C.O     3.S.I    4.J.I(pre-revised)</a></li>
+						        <li><a href="Pdf/Recruitment_Rules/RR_JI_Revised.pdf" title="Jr.Inspector(Revised)" target="new">Jr.Inspector(Revised)</a></li>
                             </ul>
                         </li>
-                        <li><a href="GOS.php" title="GOVERNMENT ORDERS">Government Orders</li>
+                        <li><a href="gos.php" title="GOVERNMENT ORDERS">Government Orders</li>
                         <li><a href="http://styandptg.puducherry.gov.in/gazetteyear.htm" title="GOVERNMENT GAZETTES" target="new">Government Gazettes</a></li>
-                                              
+                         
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Government <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="other_official.php" title="OFFICER OF DEPARTMENT">Officer of the Department</a></li>
+						        
+                            </ul>
+                        </li>                               
                     </ul>
                 </div>
             </div><!--/.container-->

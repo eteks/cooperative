@@ -47,8 +47,8 @@
 						      <th >Sl.No</th>
 						      <th > Name of the Thiru/Thmt</th>
 							  <th>Designation</th>
-							  <th >Phone    No</th>
-							  <th >Fax    No</th>
+							  <th >Phone No</th>
+							  <th >Fax No</th>
 							  <th >E-mail</th>
 							  <th >Address</th>
 						</tr>	 

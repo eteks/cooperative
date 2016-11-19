@@ -11,36 +11,33 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-   
+    <link href="css/prettyPhoto.css" rel="stylesheet">    
     <link href="css/main.css" rel="stylesheet"> 
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/slidder.css" rel="stylesheet">
-    <!-- <link href="css/zoom-in.css" rel="stylesheet"> -->
+    <link href="css/zoom-in.css" rel="stylesheet">
     
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
+    
     <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">   
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">    
 </head><!--/head-->
 
 <body class="homepage">
-	<!--/header-->
-	
-	<?php include('include/header.php'); ?>
-	
+	<!--/header-->	
+	<?php include('include/header.php'); ?>	
     <!--/header-->
-    <!--/slidder part--> 
-  <div class="container">
-  	<div class= "left-update">
-  	  <div id="slidder">
-   		<div class="row"> 		
-           <div class="col-sm-3 col-xs-6 col-md-3">
+ 
+    <!-- <!--slidder part--> 
+   <div class="container">
+   	<div class= "left-update">
+   <div id="slidder">
+   	<div class="row">  		
+        <div class="col-sm-3 col-xs-6 col-md-3">
 	       	 <div id = "panel-right">	       	 	
 				<table style=" border-width:0.5px" cellspacing="0" cellpadding="0" bordercolor="black" border="1" align="center">
 							<tbody>
@@ -58,10 +55,8 @@
 													<marquee class="current-jobs-box"  behavior="scroll" direction="down" scrollamount="5" scrolldelay="150" height="480" >
 														<span class="three">
 															<ul class="jobs-link id="contents"" >
-																<li class="list-update"><a href="pdf/Latest news/Padma Awards.pdf" target="new">GOI, Ministry of Textiles, New Delhi - Online nomination_recommendations for the padma awards to be announced on the occasion of Republic Day-2017 - Requested.</a></li>
-																<li class="list-update"><a href="pdf/Latest news/COM_SC.pdf" target="new">Circular - PCS Act,1972 - S.32(3) - Reservation of seats for SC members in COM of primary co-op. societies - Amendment of bye-laws - Action - Requested</a></li>	
-																<li class="list-update"><a href="pdf/Latest news/AGB.pdf"target="new">Circular - Conduct of annual general body meeting - Appropriation of net profit - Payment of dividend on Govt. shares - Action - Requested.</a></li>
-																	
+																<li class="list-update"><a href="pdf/Latest_news/Padma_Awards.pdf" target="new">GOI, Ministry of Textiles, New Delhi - Online nomination_recommendations for the padma awards to be announced on the occasion of Republic Day-2017 - Requested.</a></li>
+																<li class="list-update"><a href="pdf/Latest_news/com_sc.pdf" target="new">Circular - PCS Act,1972 - S.32(3) - Reservation of seats for SC members in COM of primary co-op. societies - Amendment of bye-laws - Action - Requested</a></li>																	<li class="list-update"><a href="pdf/Latest news/AGB.pdf"target="new">Circular - Conduct of annual general body meeting - Appropriation of net profit - Payment of dividend on Govt. shares - Action - Requested.</a></li>																	
 														     </ul>
 	                                                     </span>
                                                      </marquee>
@@ -69,41 +64,41 @@
                                                </tr>
                                              </tbody>
                                           </table> 
-                                        </td>
-                                     </tr>
-                               </tbody>
-                          </table>
-	        		</div>             
-       			</div> 
-       	<div class="col-sm-6 col-xs-12 col-md-6">
-       		<div id = "left-scroll" >
-       			<div id="jssor_1" style="position: relative; margin: 2px auto; top: 0px; left: 0px; width: 500px; height: 480px; overflow: hidden; visibility: hidden;">
-			        <!-- Loading Screen -->
-			        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-			            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-			            <div style="position:absolute;display:block;background:url('images/slider/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
-			        </div>
-			        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 500px; height: 465px; overflow: hidden;">
-			            <a data-u="any" href="http://www.jssor.com" style="display:none">Banner Rotator</a>
-			            <div data-p="112.50">
-			                <img data-u="image" src="images/slider/pic1.jpg" />
-			            </div>
-			            <div data-p="112.50" style="display: none;">
-			                <img data-u="image" src="images/slider/pic2.jpg" />
-			            </div>
-			            
-			        </div>
-			        <!-- Bullet Navigator -->
-			        <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">
-			            <div data-u="prototype" style="width:12px;height:12px;"></div>
-			        </div>
-			        <!-- Arrow Navigator -->
-			        <span data-u="arrowleft" class="jssora05l" style="top:0px;left:8px;width:40px;height:40px;" data-autocenter="2"></span>
-			        <span data-u="arrowright" class="jssora05r" style="top:0px;right:8px;width:40px;height:40px;" data-autocenter="2"></span>
-   				 </div>
-    		</div>
-    	</div>    
-       	<div class="col-sm-3 col-xs-6 col-md-3">
+                                       </td>
+                                    </tr>
+                               	</tbody>
+                          	 </table>
+	        			</div>             
+      				 </div> 
+       <div class="col-sm-6 col-xs-12 col-md-6">
+       	<div id = "left-scroll" >
+       <div id="jssor_1" style="position: relative; margin: 2px auto; top: 0px; left: 0px; width: 500px; height: 480px; overflow: hidden; visibility: hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('images/slider/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 500px; height: 465px; overflow: hidden;">
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Banner Rotator</a>
+            <div data-p="112.50">
+                <img data-u="image" src="images/slider/pic1.jpg" />
+            </div>
+            <div data-p="112.50" style="display: none;">
+                <img data-u="image" src="images/slider/pic2.jpg" />
+            </div>
+            
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb01" style="bottom:16px;right:16px;">
+            <div data-u="prototype" style="width:12px;height:12px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora05l" style="top:0px;left:8px;width:40px;height:40px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora05r" style="top:0px;right:8px;width:40px;height:40px;" data-autocenter="2"></span>
+    </div>
+    </div>
+    </div>    
+       	  <div class="col-sm-3 col-xs-6 col-md-3">
        	  	<div id = "panel-right">
 				<table style=" border-width:0.5px"  cellspacing="0" cellpadding="0" bordercolor="black" border="1" align="center" height="480">
 								<tr>
@@ -122,9 +117,9 @@
 															<ul class="jobs-link" id="contents">
 																<li class="list-update"><a href="#" target="new">Recruitment of Junior Inspectors - Notification for candidates sponsored through Employment Exchange – Issued</a></li>
 																<li class="list-update"><a href="#" target="new">Notification – Direct recruitment to the post of Junior Inspectors of co-op. societies – Issued</a></li>																																	
-														     	<li class="list-update"><a href="pdf/Latest news/Padma Awards.pdf" target="new">Notification for candidates sponsored through Employment Exchange.</a></li>
-														     	<li class="list-update"><a href="pdf/Latest news/COM_SC.pdf" target="new">Application Notification</a></li>
-														     	<li class="list-update"><a href="pdf/Latest news/AGB.pdf" target="new">Question Booklet of JI exam 2006.</a></li>														     														     
+														     	<li class="list-update"><a href="pdf/Latest_news/Padma Awards.pdf" target="new">Notification for candidates sponsored through Employment Exchange.</a></li>
+														     	<li class="list-update"><a href="pdf/Latest_news/com_sc.pdf" target="new">Application Notification</a></li>
+														     	<li class="list-update"><a href="pdf/Latest_news/agb.pdf" target="new">Question Booklet of JI exam 2006.</a></li>														     														     
 														     </ul>
 	                                                     </span>
                                                     </marquee>
@@ -134,13 +129,13 @@
                                           </table> 
                                        </td>
                                    </tr>
-                          	</tbody>
-                  		</table>
-	        		</div>                    	  	      
-       			</div> 
-   			</div>	
-   		</div> 
-   	</div>
+                          		</tbody>
+                  			</table>
+	        			</div>                    	  	      
+       				</div> 
+   				</div>	
+   			</div> 
+   		</div>
   </div>
    
    <!--/slidder part--> 
@@ -153,8 +148,7 @@
                 <h2>GOVERNMENT</h2>                
             </div>
             <div class="row">
-                <div class="col-xs-4 col-sm-4 col-md-4">
-                
+                <div class="col-xs-4 col-sm-4 col-md-4">             
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="images/Governnment/item8.png" alt="Governor">
                         <div class="overlay">
@@ -166,7 +160,6 @@
                         </div>
                     </div>
                 </div>   
-
                 <div class="col-xs-4 col-sm-4 col-md-4">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="images/Governnment/item8.png" alt="Chief Minister">
@@ -174,12 +167,11 @@
                             <div class="recent-work-inner hidden-xs">
                                 <h3><a href="#"> Chief Minister</a></h3>
                                 <p><b>NARAYANA SAMY</b></p>
-                                <a class="cm" href="CM.php" target="new"><i class="fa fa-eye"></i> View</a>
+                                <a class="cm" href="cm.php" target="new"><i class="fa fa-eye"></i> View</a>
                             </div> 
                         </div>
                     </div>
                 </div> 
-
                 <div class="col-xs-4 col-sm-4 col-md-4">
                     <div class="recent-work-wrap">
                         <img class="img-responsive" src="images/Governnment/item8.png" alt="Ministor for co-operation">
@@ -232,33 +224,32 @@
                     </div>
                 </div> 
               </div>
-            </div><!--/.row-->
+           </div><!--/.row-->
         </div><!--/.container-->
     </section><!--/#recent-works-->
     <!--- buttons----->
     
     <div class="top-bar">
-       <div class="container">
-          <div class="row">
-           	<div class="col-sm-3 col-xs-2 col-md-3">
-            </div>
-            <div class="col-sm-7 col-xs-8 col-md-7">
+            <div class="container">
+            	<div class="row">
+            	<div class="col-sm-3 col-xs-2 col-md-3">
+            	</div>
+            	<div class="col-sm-7 col-xs-8 col-md-7">
             	<ul class="breadcrumb " id="contents" font-size: "30px";>           		
 						<li><a href="comp_cir.php">COMPENDIUM OF CIRCULARS</a></li>
                         <li><a href="useful.php">USEFUL LINKS</a></li> 
-                        <li><a href="faq.php">FREQUENTLY ASKED QUESTIONS</a></li>        		
+                        <li><a href="faq.php">FREQUENTLY ASKED QUESTIONS</a></li> 
+            		
             	</ul>
+            	</div>
+            	<div class="col-sm-2 col-xs-2 col-md-2">
+            	</div>
+            	</div>
             </div>
-            <div class="col-sm-2 col-xs-2 col-md-2">
-            </div>
-           </div>
-        </div>
     </div>
     
-    
-
 <!--/#footer-->
-		<?php include('include/footer.php'); ?> 
+		<?php include('include/footer.php'); ?>
 <!--/#footer-->
 
     <script src="js/jquery.js"></script>
@@ -266,7 +257,7 @@
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/custom.js"></script>    
+    <script src="js/custom.js"></script> 
     <script src="js/wow.min.js"></script>
     <script src="js/jquery-3.1.0.slim.min.js"></script>    
     <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
@@ -303,9 +294,7 @@
                 $Class: $JssorBulletNavigator$
               }
             };
-
             var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
             /*responsive code begin*/
             /*you can remove responsive code if you don't want the slider scales while window resizing*/
             function ScaleSlider() {
@@ -324,7 +313,7 @@
             $(window).bind("orientationchange", ScaleSlider);
             /*responsive code end*/
         });
-    </script>     
- </div>  
+    </script>   
+ 	</div>  
 </body>
 </html>

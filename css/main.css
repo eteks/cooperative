@@ -113,7 +113,7 @@ a:focus {
 
 .dropdown-menu {
   margin-top: -1px;
-  min-width: 350px;
+  min-width: 250px;
 }
 
 .center h2{
@@ -259,7 +259,7 @@ input.search-form:hover {
   border-radius: 0;
   margin-bottom: 0;
   /*background: #4484CE;*/
-  padding: 15px 0;
+  /*padding: 15px 0;*/
   padding-bottom: 0;
 }
 
@@ -268,7 +268,7 @@ input.search-form:hover {
  }
 
 .navbar-nav>li{
-  margin-left: 10px;
+  margin-left: 21px;
   padding-bottom: 10px;
 }
 
@@ -598,6 +598,7 @@ input.search-form:hover {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;  
   padding: 30px;
+  cursor:pointer;
 }
 
 .recent-work-wrap .overlay .preview {
@@ -925,7 +926,7 @@ input.search-form:hover {
 	width:775px;
 }
 #apDiv13 table tr{
-	width: 800px;
+	width: 100%;
 	height:32.7pt;
 	border: 1px solid blue;
 	font-size: 14px;
