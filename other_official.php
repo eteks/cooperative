@@ -23,21 +23,17 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-    
-    
-    
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">    
 </head><!--/head-->
 
 <body class="homepage">
-
     <!--/header-->	
 		<?php include('include/header.php'); ?>	
- 	 <!--/header-->
+ 	 <!--/header-->	 
  <div id= "container">
  	<div class= "major">
  		<div id="apDiv13">
-<center>
+			<center>
   <table width="760" border="1" cellpadding="0" cellspacing="0" class="MsoTableGrid" id="table_877f_0">
     <tr id="tr_877f_0">
     <center>
@@ -124,18 +120,16 @@
         <p class="MsoNormal" align="left" id="p_877f_60"><strong><span id="span_877f_68">Puducherry-605 009.</span></strong></p>
         <p class="MsoNormal" align="left" id="p_877f_61"><strong><span id="span_877f_69">Ph.No. : (0413)-2272747, 2272179</span></strong></p>
         <p class="MsoNormal" align="left" id="p_877f_62"><strong><span id="span_877f_70">Fax No.: (0413)-2272619</span></strong><span id="span_877f_71"> </span></p></td>
-    </tr>
-        
-  </table>
-</center>
-</div>	
- 	
-	 </div> 
+    </tr>	        
+  	</table>
+	</center>
+		</div>	
+	</div> 
  </div>
  
-<!--/#footer-->
-		<?php include('include/footer.php'); ?>
-  <!--/#footer--> 
+	<!--/#footer-->
+			<?php include('include/footer.php'); ?>
+	<!--/#footer--> 
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -146,7 +140,5 @@
     <script src="js/jquery-3.1.0.slim.min.js"></script>
     <script src="js/custom.js"></script>
     <script type="text/javascript"></script>
-    
-   
 </body>
 </html>

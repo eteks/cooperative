@@ -1,14 +1,12 @@
 // zoom-in and zoom-out
 var section ;
 var factor = 0.8;
-
 function getFontSize(el)
 {
     var fs = $(el).css('font-size');    
     if(!el.originalFontSize)el.originalFontSize =fs; //set dynamic property for later reset  
     return  parseFloat(fs);  
 }
-
 function setFontSize(fact){
     if(section==null)
        section = $('#contents').find('*')       
@@ -25,7 +23,6 @@ function setFontSize(fact){
       if(newsize) $(this).css('font-size', newsize );      
     }); 
 }
-
 function resetFont(){
     setFontSize();
 }
@@ -35,7 +32,6 @@ function increaseFont() {
 function decreaseFont(){
     setFontSize(factor);
 }
-
 // Theme color change
 
 // Green Color Theme
