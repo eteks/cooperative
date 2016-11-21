@@ -33,19 +33,21 @@
 
 <!--/header-->	
 		<?php include('include/header.php'); ?>	
- 	 <!--/header-->
+ <!--/header-->
 
   <div class= "container">
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
  				<div class="table-responsive">
- 				<h5>RIGHT TO INFORMATION ACT</h5>
-				<h2>Details Of Quarterly Return Form</h2>
+ 					<div class="center wow fadeInDown">
+ 						<h5>RIGHT TO INFORMATION ACT</h5>
+						<h2>Details Of Quarterly Return Form</h2>
+					</div>
 				<center>
- 					<table >
+ 					<table>
  						<tr>
-						      <th>PArtiCULARSS</th>
+						     <th>Particulars</th>
 						      <th>2011-12</th>
 							  <th>2012-13</th>
 							  <th>2013-14</th>
@@ -54,11 +56,11 @@
 						</tr>
 						<tr>
 							<td>I (First) Quarter –(April – June) </td>
-							<td> <a href="Pdf/rti/rti_quarterly/qtr1_2011_12.pdf" target="new">30.06.2011</a></td>
-							<td> <a href="Pdf/rti/rti_quarterly/qtr1_2012_13.pdf" target="new">30.06.2012</a></td>
-							<td> <a href="Pdf/rti/rti_quarterly/qtr1_2013_14.pdf" target="new">30.06.2013</a></td>
-							<td> <a href="Pdf/rti/rti_quarterly/qtr1_2014_15.pdf" target="new">30.06.2014</a></td>
-							<td><a href="Pdf/rti/rti_quarterly/qtr1_2015_16.pdf" target="new">30.06.2015</a></td>
+							<td><p> <a href="Pdf/rti/rti_quarterly/qtr1_2011_12.pdf" target="new">30.06.2011</a></p></td>
+							<td><p> <a href="Pdf/rti/rti_quarterly/qtr1_2012_13.pdf" target="new">30.06.2012</a></p></td>
+							<td><p> <a href="Pdf/rti/rti_quarterly/qtr1_2013_14.pdf" target="new">30.06.2013</a></p></td>
+							<td><p> <a href="Pdf/rti/rti_quarterly/qtr1_2014_15.pdf" target="new">30.06.2014</a></p></td>
+							<td><p><a href="Pdf/rti/rti_quarterly/qtr1_2015_16.pdf" target="new">30.06.2015</a></p></td>
 						</tr>
 						<tr>
 							<td> II (Second) Quarter (July – September)</td>
@@ -84,13 +86,13 @@
 							<td> <a href="Pdf/rti/rti_quarterly/qtr4_2014_15.pdf" target="new">31.03.2015</a></td>
 							<td><a href="Pdf/rti/rti_quarterly/qtr4_2015-16.pdf" target="new">31.03.2016</a></td>
 						</tr>						
- 				</table>
+ 					</table>
  				</center>
- 				</div>
  			</div>
  		</div>
  	</div>
  </div>
+</div>
  
  
 	<!--/#footer-->

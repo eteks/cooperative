@@ -42,9 +42,11 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision">
+ 			<div class="center wow fadeInDown">
 			<h5>ADMINISTRATIVE SETUP</h5>
 				<center>
 					<h2 >Pondicherry Region</h2>
+			</div>
 				 <table>  
 				    <tr>
 				    	<td>
@@ -169,7 +171,9 @@
  		<div id="apDiv13">
  			<div id="revision">
 				<center>
+				<div class="center wow fadeInDown">
 					<h2 >Karaikal Region</h2>
+				</div>
 				 <table>
 				    
 				    <tr>
@@ -194,7 +198,9 @@
  		<div id="apDiv13">
  			<div id="revision">
 				<center>
+				<div class="center wow fadeInDown">
 					<h2 >Mahe Region</h2>
+				</div>
 				 <table>
 				    
 				    <tr>
@@ -219,7 +225,9 @@
  		<div id="apDiv13">
  			<div id="revision">
 				<center>
+				<div class="center wow fadeInDown">
 					<h2 >Yanam Region</h2>
+				</div>
 				 <table>
 				    
 				    <tr>

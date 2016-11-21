@@ -40,7 +40,9 @@
  		<div id="apDiv13">
  			<div id="revision">
 				<center>
-					<h2>Pondicherry Region</h2>
+					<div class="center wow fadeInDown">
+						<h2>Pondicherry Region</h2>
+					</div>
 				 <table>
 				   
 				      <th colspan="3"  >CO-OPERATIVE BANKS</th>
@@ -156,7 +158,9 @@
  		<div id="apDiv13">
  			<div id="revision">
 				<center>
-					<h2 >Karaikal Region</h2>
+					<div class="center wow fadeInDown">
+						<h2 >Karaikal Region</h2>
+					</div>
 				 <table>
 				    
 				    <tr>
@@ -198,7 +202,10 @@
  		<div id="apDiv13">
  			<div id="revision">
 				<center>
-					<h2 >Mahe Region</h2>
+					<div class="center wow fadeInDown">
+						<h2 >Mahe Region</h2>
+					</div>
+				
 				 <table>
 				    
 				    <tr>
@@ -227,7 +234,9 @@
  		<div id="apDiv13">
  			<div id="revision">
 				<center>
-					<h2 >Yanam Region</h2>
+					<div class="center wow fadeInDown">
+						<h2 >Yanam Region</h2>
+					</div>
 				 <table>
 				    
 				    <tr>

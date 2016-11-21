@@ -39,28 +39,28 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision">
- 				<h5>CONTACT US</h5>
+ 				
+ 				<h5 class = class="center wow fadeInDown">CONTACT US</h5>
 				<div>
  				
  					<h2>Office of the    Registrar of Co-operative Societies</h2>
 					<p class="contact">V.V.P. Nagar, Thattanchavady </br><strong>Puducherry-605 009.</strong></p>	
 					<p class="contact1"></br> &nbsp;Registrar of Co-operative    Societies:(0413) 2272007</br>&nbsp; Office General:(0413) 2272747/:(0413) 2272179</br> &nbsp; Fax :(0413) 2272619</br>&nbsp; E-mail:rcs@pon.nic.in</br>&nbsp; website:cooperation.puducherry.gov.in</p>
-					<hr class="ruler">
+					<hr class="style17">
 				</div>
 				<div>
 					<h2>Office of the Deputy    Registrar of Co-operative Societies,</h2>
 					<p class="contact">Perunthalaivar Kamarajar Administrative Complex, </br>Ammalchathiram, Neravy Post,</br><strong>Karaikal - 609 604.</strong></br>Phone No. : (04368) 222502</p>
-					<hr class="ruler">
+					<hr class="style17">
 				</div>
 				<div>
 				<h2>Office of the Deputy    Registrar of Co-operative Societies,</h2>
 					<p class="contact">Civil Station,</br><strong>Mahe - 673 310.</strong></br>Phone No. : (0490) 2333470</p>
-					<hr class="ruler">
+					<hr class="style17">
 				</div>
 				<div>
 				<h2>Office of the Co-operative    Officer,</h2>
-					<p class="contact">Civil Station</br><strong>Yanam - 533 464.</strong></br>Phone No. : (0884) 2321301 / 2323123</p>
-					<hr class="ruler">
+					<p class="contact">Civil Station</br><strong>Yanam - 533 464.</strong></br>Phone No. : (0884) 2321301 / 2323123</p>					
  				</div>
  				
  			</div>

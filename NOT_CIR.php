@@ -39,8 +39,10 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
- 				<h5>NOTIFICATION  AND CIRCULARS</h5>
-				<h2>Last updated on 12/7/2016<h2>
+ 				<div class="center wow fadeInDown">
+ 					<h5>NOTIFICATION  AND CIRCULARS</h5>
+					<h2>Last updated on 12/7/2016<h2>
+				</div>
  				<center>
  					<table>
  						<tr>

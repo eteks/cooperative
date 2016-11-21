@@ -38,7 +38,10 @@
  	<div class= "major1">
  		<div id="apDiv13">
 			<center>
-				<h5>RIGHT TO INFORMATION ACT</h5>
+				<div class="center wow fadeInDown">
+					<br>
+					<h5>RIGHT TO INFORMATION ACT</h5>
+				</div>
 				<table>
 					<tr>
 					      <td><strong><a href="Pdf/rti/rti_form/F1.pdf" TARGET="NEW">Form -1 : Form of application for seeking information under the Right to Information Act, 2005</a></strong></td>

@@ -35,7 +35,7 @@
                         	<li class="dropdown">
                             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <i class="fa fa-angle-down"></i></a>
                             	<ul class="dropdown-menu co-op">
-                            	<li><a href="Form.php" title="FORM">Forms</a></li>       						  
+                            	<li><a href="form.php" title="FORM">Forms</a></li>       						  
                             	</ul>
                            </li> 
    						 	<li>
@@ -74,11 +74,11 @@
             <div class="container">
             	<div class="row">
             		<div class="col-sm-12 col-xs-12 col-md-12">
-            	       <div class="top-logo col-md-3 col-sm-3 col-xs-12" >
+            	       <div class="top-logo col-md-4 col-sm-4 col-xs-12" >
 		                   	<img id="logo1" class="text-center" src="images/logo/logo1.png" alt=""/>
                         	<div id="logo2" class="pull-right"><p><strong><center>Government Of Puducherry</center></strong></p></div>
 	                    </div>
-	                    <div  class="logo3 col-md-9 col-sm-9 col-xs-12">
+	                    <div  class="logo3 col-md-8 col-sm-8 col-xs-12">
 	                         <h1 class="pull-right">Co-operative Department</h1>
 	                    </div>
 			      </div>
@@ -142,19 +142,16 @@
                             </ul>
                         </li>
                         <li><a href="gos.php" title="GOVERNMENT ORDERS">Government Orders</li>
-                        <li><a href="http://styandptg.puducherry.gov.in/gazetteyear.htm" title="GOVERNMENT GAZETTES" target="new">Government Gazettes</a></li>
-                         
+                        <li><a href="http://styandptg.puducherry.gov.in/gazetteyear.htm" title="GOVERNMENT GAZETTES" target="new">Government Gazettes</a></li>                         
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Government <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="other_official.php" title="OFFICER OF DEPARTMENT">Officer of the Department</a></li>
-						        
+                                <li><a href="other_official.php" title="OFFICER OF DEPARTMENT">Officer of the Department</a></li> 
                             </ul>
                         </li>                               
                     </ul>
                 </div>
             </div><!--/.container-->
             </div>
-        </nav><!--/nav-->
-        
+        </nav><!--/nav-->      
  </header><!--/header-->

@@ -38,8 +38,10 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
- 				<h5>RIGHT TO INFORMATION ACT</h5>
- 				<h2> Proceedings Of First Appellate Authority</h2>
+ 				<div class="center wow fadeInDown">
+ 					<h5>RIGHT TO INFORMATION ACT</h5>
+ 					<h2> Proceedings Of First Appellate Authority</h2>
+ 				</div>
  				<center>
  					<table>
  						<tr>

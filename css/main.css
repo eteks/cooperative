@@ -7,8 +7,9 @@
 
 body {
   background: #D9D9D9;
+  	
   font-family: 'Arial,Helvetica,sans-serif;
-  font-size: 16px;
+  font-size: 11px;
   color:#4e4e4e;
   line-height: 22px;
   overflow-x:hidden;
@@ -117,7 +118,7 @@ a:focus {
 }
 
 .center h2{
-  font-size: 30px;
+  font-size: 17px;
   margin-top: -17;
   margin-bottom: -30px;	
 }
@@ -201,7 +202,12 @@ body > section {
 
 .top-bar {
   padding: 8px 8px;
-  background: #4484ce;
+  /*background: #4484ce;*/
+  background: #5f2c82; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #5f2c82, #00ced1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, ##5f2c82, #00ced1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #5f2c82, 	#00ced1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #5f2c82,	#00ced1); /* Standard syntax */
   border-bottom: 1px solid #222;
   line-height: 28px;
 }
@@ -289,6 +295,12 @@ input.search-form:hover {
 
 .navbar-inverse {
   border: none;
+   /*background-color: #4484ce;*/
+   background: #000000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #000000,#323232); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #000000, #323232); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #000000, #323232); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #000000,	#323232); /* Standard syntax */
 }
 
 .navbar-inverse .navbar-brand {
@@ -366,13 +378,15 @@ input.search-form:hover {
 
 
 .breadcrumb {
-	background: #4484ce; 
+	background: transparent;
+	 /*background: #5f2c82; /* For browsers that do not support gradients */
+  
 	border: 0px solid rgba(10, 10, 10, 1); 
 	border-radius: 0px; 
 	display: block; 
 	/*margin-right:50px;*/
 }
-.breadcrumb li {font-size: 12px;font-weight: 500;}
+.breadcrumb li {font-size: 11px;font-weight: 700;}
 
 
 .breadcrumb a {color: rgba(235, 240, 245, 1);}
@@ -434,6 +448,9 @@ input.search-form:hover {
 .logo{
 	padding: 3px 0;
   background: #D9D9D9;
+  
+}
+ 
   border-bottom: 1px solid #222;
   font-weight: normal;
   font-family: 'Ultra', sans-serif;   
@@ -458,7 +475,7 @@ input.search-form:hover {
 #logo2{
 	text-shadow: 0 2px white, 0 3px #777;
 	font-family: helvetica, arial, verdana, sans-serif;
-	font-size: 14px;
+	font-size: 17px;
 	color: blue;
 	font-weight: 200;
 	padding: none;
@@ -488,6 +505,10 @@ input.search-form:hover {
 	border-bottom: 1;
 	border-bottom-color: black;
 }
+.slide{
+	/*weight: 500px;*/
+	height: 370px; !important
+}
 
 #panel-right 
 {
@@ -495,7 +516,7 @@ input.search-form:hover {
 }
 #panel-right table
 {
-	height: 490px;
+	height: 350px;
 	 width: 260px;
 }
 /*#panel-right .col-sm-3 table
@@ -853,6 +874,28 @@ input.search-form:hover {
   outline: 0 none;
 }
 
+/***********************
+********* divider css ******
+************************/
+hr.style17 {
+	border-top: 1px solid #c52d2f;
+	text-align: center;
+	/*width: 100%;*/
+}
+hr.style17:after {
+	content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #D9D9D9;
+	color: #c52d2f;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+	
+}
 
 
 
@@ -862,6 +905,7 @@ input.search-form:hover {
 .top-bar2 {
   color: gray;
   background-color: #151515;
+  
   border-bottom: 1px solid #222;
   /*line-height: 28px;*/
   /*padding: 8px 8px;*/
@@ -962,6 +1006,7 @@ input.search-form:hover {
  	font-family: 'Arial', 'sans-serif';
  	color:#d43133;
  	margin-left: 5px;
+ 	text-align:center;
 
  }
 .side-head h5{

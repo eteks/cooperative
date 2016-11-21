@@ -46,7 +46,7 @@
 						      
 						</tr>
 						<tr>
-						<td><strong><a href="Pdf/Download/SREG FORM.pdf" >Form of    Application under Section 8 of the Puducherry Co-operative Societies Act,    1972 (No.7 of 1973) for the registration of a co-operative society</a></strong></td>
+						<td><strong><a href="Pdf/Download/sreg_form.pdf" >Form of Application under Section 8 of the Puducherry Co-operative Societies Act,    1972 (No.7 of 1973) for the registration of a co-operative society</a></strong></td>
 						</tr>
 						<tr>
 						<td><strong><a href="Pdf/Download/hba.pdf">Grant of advance for purchase of land or part/full construction, enlargement,    etc., of a house</a></strong></td>
@@ -55,7 +55,7 @@
 						<td><strong><a href="Pdf/Download/mca.pdf">Application form for an    advance for the purchase of motor Car / Motor Cycle/ </a><a href="mca.pdf" >Personal Computer</a></strong></td>
 						</tr>
 						<tr>
-						<td><strong><a href="Pdf/Download/SR.pdf">General Subsidiary    Regularization of the society&rsquo;s employee</a></strong></td>
+						<td><strong><a href="Pdf/Download/sr.pdf">General Subsidiary    Regularization of the society&rsquo;s employee</a></strong></td>
 						</tr>
  						
  					</table>

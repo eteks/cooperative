@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-TextLayoutMetrics" content="gdi" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -33,13 +35,13 @@
     <!--/header-->
  
     <!-- <!--slidder part--> 
-   <div class="container">
-   	<div class= "left-update">
+<div class="container">
+  <div class= "left-update">
    <div id="slidder">
-   	<div class="row">  		
+   	  <div class="row">  		
         <div class="col-sm-3 col-xs-6 col-md-3">
 	       	 <div id = "panel-right">	       	 	
-				<table style=" border-width:0.5px" cellspacing="0" cellpadding="0" bordercolor="black" border="1" align="center">
+				<table class="slide" style=" border-width:0.5px" cellspacing="0" cellpadding="0" bordercolor="black" border="1" align="center">
 							<tbody>
 								<tr>
 									<td width="100" valign="top">
@@ -52,7 +54,7 @@
 										  	</tr>
 											<tr>
 												<td>
-													<marquee class="current-jobs-box"  behavior="scroll" direction="down" scrollamount="5" scrolldelay="150" height="480" >
+													<marquee class="slide"  behavior="scroll" direction="down" scrollamount="5" scrolldelay="150">
 														<span class="three">
 															<ul class="jobs-link id="contents"" >
 																<li class="list-update"><a href="pdf/Latest_news/Padma_Awards.pdf" target="new">GOI, Ministry of Textiles, New Delhi - Online nomination_recommendations for the padma awards to be announced on the occasion of Republic Day-2017 - Requested.</a></li>
@@ -60,31 +62,31 @@
 														     </ul>
 	                                                     </span>
                                                      </marquee>
-                                                  </td>
-                                               </tr>
-                                             </tbody>
-                                          </table> 
-                                       </td>
-                                    </tr>
-                               	</tbody>
-                          	 </table>
-	        			</div>             
-      				 </div> 
+                                                </td>
+                                             </tr>
+                                          </tbody>
+                                        </table> 
+                                      </td>
+                                   </tr>
+                               </tbody>
+                    </table>
+	        	</div>             
+      		</div> 
        <div class="col-sm-6 col-xs-12 col-md-6">
        	<div id = "left-scroll" >
-       <div id="jssor_1" style="position: relative; margin: 2px auto; top: 0px; left: 0px; width: 500px; height: 480px; overflow: hidden; visibility: hidden;">
+       <div id="jssor_1" style="position: relative; margin: 2px auto; top: 0px; left: 0px; width: 500px; height: 370px; overflow: hidden; visibility: hidden;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
             <div style="position:absolute;display:block;background:url('images/slider/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 500px; height: 465px; overflow: hidden;">
+        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 500px; height: 370px; overflow: hidden;">
             <a data-u="any" href="http://www.jssor.com" style="display:none">Banner Rotator</a>
             <div data-p="112.50">
-                <img data-u="image" src="images/slider/pic1.jpg" />
+                <img data-u="image" src="images/slider/53.jpg" />
             </div>
             <div data-p="112.50" style="display: none;">
-                <img data-u="image" src="images/slider/pic2.jpg" />
+                <img data-u="image" src="images/slider/59.jpg" />
             </div>
             
         </div>
@@ -100,7 +102,7 @@
     </div>    
        	  <div class="col-sm-3 col-xs-6 col-md-3">
        	  	<div id = "panel-right">
-				<table style=" border-width:0.5px"  cellspacing="0" cellpadding="0" bordercolor="black" border="1" align="center" height="480">
+				<table class="slide" style=" border-width:0.5px"  cellspacing="0" cellpadding="0" bordercolor="black" border="1" align="center" >
 								<tr>
 									<td width="100" valign="top">
 									  <table width="" border="0">
@@ -112,7 +114,7 @@
 										  	</tr>
 											<tr>
 												<td>
-													<marquee behavior="scroll" direction="down" scrollamount="5" scrolldelay="150" height= "480">
+													<marquee class="slide" behavior="scroll" direction="down" scrollamount="5" scrolldelay="150">
 														<span class="three">
 															<ul class="jobs-link" id="contents">
 																<li class="list-update"><a href="#" target="new">Recruitment of Junior Inspectors - Notification for candidates sponsored through Employment Exchange – Issued</a></li>
@@ -144,8 +146,9 @@
 	<!-- government start---->
    <section id="recent-works">
         <div class="container">
+        	 <br><hr class="style17">  
             <div class="center wow fadeInDown">
-                <h2>GOVERNMENT</h2>                
+                <h2>GOVERNMENT</h2>                             
             </div>
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-4">             

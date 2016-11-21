@@ -40,8 +40,9 @@
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
  				<div class="table-responsive">
- 				
- 				<h5>RIGHT TO INFORMATION ACT</h5>
+ 					<div class="center wow fadeInDown">
+ 						<br><h5>RIGHT TO INFORMATION ACT</h5>
+ 					</div>
  					<table >
  						<tr>
 						      <th >Sl.No</th>

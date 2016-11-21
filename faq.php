@@ -37,7 +37,9 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
+ 				<div class="center wow fadeInDown">
  				<h5><center>FREQUENTLY ASKED QUESTIONS</center></h5>
+ 				</div>
  			<div class="faq">
  				<p><a href="faq1.php" target="new">1. What is a co-operative society?</a></p>
  				<p><a href="faq2.php" target="new">2. What are the co-operative principles?</a></p>

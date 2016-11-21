@@ -39,7 +39,9 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision">
- 				<h5>RTI MANUALS</h5>
+ 				<div class="center wow fadeInDown">
+ 					<h5>RTI MANUALS</h5>
+ 				</div>
 				
 				<table>
 					<tr>

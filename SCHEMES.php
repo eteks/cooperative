@@ -38,8 +38,10 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
- 				<h5>SCHEMES OF THE DEPARTMENT</h5>
-				<h2>Scheme Under Credit Sector</h2>
+ 				<div class="center wow fadeInDown">
+ 					<h5>SCHEMES OF THE DEPARTMENT</h5>
+					<h2>Scheme Under Credit Sector</h2>
+				</div>
  				
 				<ul class="list">
 				<li>The total number of apex co-operative institutions and primary agricultural co-operative   societies as on 30-9-2015 is 60 (Puducherry - 51, Karaikal - 7 and Mahe  - 2)</li>
@@ -51,7 +53,10 @@
 				<li>All the Kisan Credit Cardholders will be  covered under the National Agricultural Insurance Scheme in respect of notified  crops.</li>
 				
 				</ul>
-				<h2>Scheme Under Housing Sector</h2>
+				<br><hr class="style17"></br>
+				<div class="center wow fadeInDown">
+					<h2>Scheme Under Housing Sector</h2>
+				</div>
 				<ul class="list">
 					<li>The total number of co-operative housing  societies as on 31-3-2015 is 58(Puducherry  - 52, Karaikal - 3, Mahe - 1 and Yanam - 2)</li>
 					<li>3% interest rebate is being provided to all  members of primary co-operative housing societies (except SC members) who have  availed loan for housing  purpose and who  repay monthly instalments regularly without any overdue</li>
@@ -60,7 +65,10 @@
 					<li>Loan-cum-subsidy for purchase of vehicles by  housing co-operatives.</li>
 					<li>Share capital assistance to the housing co-operatives.</li>
 				</ul>
-				<h2>Scheme Under Handloom Sector</h2>
+				<br><hr class="style17"><br>
+				<div class="center wow fadeInDown">
+					<h2>Scheme Under Handloom Sector</h2>
+				</div>
 				<p class="scheme" >The  following schemes are being implemented for the welfare of the weavers under  Weavers Welfare Fund, funded by the Government of Puducherry and operated  through Pondicherry State Weavers Co-operative Society, which is the apex  weavers </p>
 					<ul class="list">
 						<li>Lumpsum grant to the family members of the  deceased weaver member : Rs. 10,000/- each.</li>
@@ -109,7 +117,10 @@
 				  <p class="scheme" >  &nbsp; &nbsp;                                 I Year  -           Rs. 400/- p.m.</p>
 				  <p class="scheme" >  &nbsp;  &nbsp;                                II Year -           Rs. 450/- p.m.</p>
 				  <p class="scheme" >  &nbsp;  &nbsp;                                III Year-           Rs. 500/- p.m.</p>
-				  <h2>Scheme Under Daily Sector</h2>
+				  <br><hr class="style17"><br>
+				  <div class="center wow fadeInDown">
+				  	<h2>Scheme Under Daily Sector</h2>
+				  </div>
 				  <p class="scheme" >   &nbsp;         For availing the benefits under these schemes, the  members may approach the societies concerned.</p>
              <p class="scheme">The total number of primary co-operative milk producers  societies as on 30.9.2015 is 122   (Puducherry - 101, Karaikal - 20, Yanam-1).</p>
 				<center>
@@ -177,7 +188,10 @@
 						
  					</table>
 					</center>
-					<h2>Courses Offered By The Pondicherry State Co-operative Union</h2>
+					<br><hr class="style17"><br>
+					<div class="center wow fadeInDown">
+						<h2>Courses Offered By The Pondicherry State Co-operative Union</h2>
+					</div>
 					<center>
 					<table>
 					<tr>
@@ -249,7 +263,10 @@
 					</tr>
 					</table>
 					</center>
-					<h2>Welfare Schemes For Scheduled Caste Persons:</h2>
+					<br><hr class="style17"><br>
+					<div class="center wow fadeInDown">
+						<h2>Welfare Schemes For Scheduled Caste Persons:</h2>
+					</div>
 					<ul class="list">
 						<li>Share capital assistance up to Rs. 500/- to  become members in the primary agricultural credit societies and Land  Development Bank.</li>
 						<li>Subsidy to the extent of 2/3 of tractor hire  charges for the hiring of tractor/ trailers/power tillers.</li>

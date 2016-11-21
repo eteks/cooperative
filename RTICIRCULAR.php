@@ -38,7 +38,9 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
- 				<h5>RIGHT TO INFORMATION ACT</h5>
+ 				<div class="center wow fadeInDown">
+ 					<br><h5>RIGHT TO INFORMATION ACT</h5>
+ 				</div>
  				<center>
  					<table>
  						<tr>

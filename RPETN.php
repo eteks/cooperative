@@ -39,11 +39,10 @@
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
  			<center>
-  
-			  <h5>CO-OPERATIVE DEPARTMENT</h5>
-			  
+  			<div class="center wow fadeInDown">
+			  <h5>CO-OPERATIVE DEPARTMENT</h5>			  
 			  <h2 >REVISION / NMD PETITIONS</h2>
-			  
+			 </div>
   
   	<table>
     <tr>

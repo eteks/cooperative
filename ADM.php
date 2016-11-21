@@ -42,12 +42,14 @@
  	<div class= "major1">
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
+ 				<div class="center wow fadeInDown">
  				<h5>MOVEMENT</h5>
 				<h2>CO-OPERATIVE  MOVEMENT IN THE UNION TERRITORY OF PUDUCHERRY</h2>
+				</div>
 				<p class="move1"> Though the  Union territory of Puducherry joined in the co-operative movement after the  merger with Indian Union in 1954, it had made a rapid growth by achieveing its  desired goals as the &lsquo;Co-operation&rsquo; has given due importance in all Five Year  Plans.</p>
-				<h2>PROGRESS OF CO-OPERATION</h2>
+				<div class="center wow fadeInDown"><h2>PROGRESS OF CO-OPERATION</h2></div>
 				<p class="move1"> The co-operative movement in  Puducherry has gained momentum and this is evident from the following table</p>
-				<h2>PROGRESS  OF CO-OPERATIVES (1981-82 TO 2009-2010</h2>
+				<div class="center wow fadeInDown"><h2>PROGRESS  OF CO-OPERATIVES (1981-82 TO 2009-2010</h2></div>
 				<table>
 					<tr >
 					  <th colspan="2">Details</td>

@@ -40,8 +40,9 @@
  		<div id="apDiv13">
  			<div id="revision" class="first-row">
 			<div>
- 				<h5>REGISTRAR OF CO-OPERATIVE SOCIETIES SINCE 1954</h5>
-				
+				<div class="center wow fadeInDown">
+ 					<h5>REGISTRAR OF CO-OPERATIVE SOCIETIES SINCE 1954</h5>
+				</div>
 				<table>
 					<tr >
 					  <th>S.no</th>
